@@ -44,3 +44,6 @@ button,input,textarea{font:inherit}.app-shell{min-height:100vh;display:grid;grid
 
 /* v0.3.9 credit */
 .credit{text-align:center;margin-top:6px;font:8px Marcellus,serif;letter-spacing:.08em;color:#555f82}
+
+/* v0.3.11 non-blocking save/delete feedback */
+.archive-toast{position:fixed;right:24px;bottom:24px;z-index:9999;max-width:min(420px,calc(100vw - 48px));padding:12px 16px;border:1px solid rgba(126,113,255,.42);border-radius:10px;background:rgba(10,15,35,.96);box-shadow:0 12px 36px rgba(0,0,0,.35);color:#dfe6ff;font-size:12px;letter-spacing:.02em;opacity:0;transform:translateY(8px);pointer-events:none;transition:opacity .18s ease,transform .18s ease}.archive-toast.show{opacity:1;transform:translateY(0)}
