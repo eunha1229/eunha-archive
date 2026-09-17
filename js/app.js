@@ -29,34 +29,84 @@ Markdown 파일만 수정하면 사이트 본문이 함께 바뀝니다.
 let state = { posts: [], filterWorld: null, filterTag: null, query: "" };
 
 function parseFrontMatter(text){
-  const normalized = text.replace(/\r\n/g,"\n");
-  const match = normalized.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
-  let meta={}, body=normalized;
-  if(match){
-    body=match[2].trim();
-    match[1].split("\n").forEach(line=>{
-      const i=line.indexOf(":");
-      if(i<0)return;
-      const k=line.slice(0,i).trim(), raw=line.slice(i+1).trim();
-      if(k==="tags") meta[k]=raw.replace(/^\[|\]$/g,"").split(",").map(s=>s.trim()).filter(Boolean);
-      else meta[k]=raw;
-    });
+  // GitHub/raw Markdown may contain BOM, CRLF, or leading whitespace.
+  const normalized = String(text ?? "")
+    .replace(/^\uFEFF/, "")
+    .replace(/\r\n?/g, "\n")
+    .trimStart();
+
+  let meta = {};
+  let body = normalized;
+
+  if (normalized.startsWith("---")) {
+    const lines = normalized.split("\n");
+    const closing = lines.findIndex((line, index) => index > 0 && line.trim() === "---");
+
+    if (closing > 0) {
+      body = lines.slice(closing + 1).join("\n").trim();
+
+      lines.slice(1, closing).forEach(line => {
+        const i = line.indexOf(":");
+        if (i < 0) return;
+
+        const key = line.slice(0, i).trim().toLowerCase();
+        let raw = line.slice(i + 1).trim();
+
+        if ((raw.startsWith('"') && raw.endsWith('"')) ||
+            (raw.startsWith("'") && raw.endsWith("'"))) {
+          raw = raw.slice(1, -1);
+        }
+
+        if (key === "tags") {
+          meta[key] = raw
+            .replace(/^\s*\[/, "")
+            .replace(/\]\s*$/, "")
+            .split(",")
+            .map(s => s.trim().replace(/^['"]|['"]$/g, ""))
+            .filter(Boolean);
+        } else {
+          meta[key] = raw;
+        }
+      });
+    }
   }
-  const sections=[];
-  const chunks=body.split(/^#\s+/m).filter(Boolean);
-  chunks.forEach(chunk=>{
-    const nl=chunk.indexOf("\n");
-    if(nl<0)return;
-    sections.push({title:chunk.slice(0,nl).trim(), content:chunk.slice(nl+1).trim()});
+
+  const sections = [];
+  const headingRegex = /^#\s+(.+)$/gm;
+  const matches = [...body.matchAll(headingRegex)];
+
+  matches.forEach((match, index) => {
+    const title = match[1].trim();
+    const contentStart = match.index + match[0].length;
+    const contentEnd = index + 1 < matches.length ? matches[index + 1].index : body.length;
+    sections.push({
+      title,
+      content: body.slice(contentStart, contentEnd).trim()
+    });
   });
-  return {...meta, tags:meta.tags||[], sections, raw:text};
+
+  return {
+    ...meta,
+    name: meta.name || "Untitled",
+    codename: meta.codename || "",
+    world: meta.world || "",
+    image: meta.image || "",
+    updated: meta.updated || "",
+    tags: Array.isArray(meta.tags) ? meta.tags : [],
+    sections,
+    raw: text
+  };
 }
 
 async function loadPosts(){
   // GitHub Pages cannot enumerate a folder by itself, so posts/index.json is the tiny manifest.
   try{
     const manifest=await fetch("posts/index.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()});
-    const texts=await Promise.all(manifest.map(file=>fetch("posts/"+file,{cache:"no-store"}).then(r=>r.text())));
+    const texts=await Promise.all(manifest.map(async file=>{
+      const r=await fetch("posts/"+encodeURIComponent(file),{cache:"no-store"});
+      if(!r.ok) throw new Error(`Could not load posts/${file}: ${r.status}`);
+      return await r.text();
+    }));
     state.posts=texts.map(parseFrontMatter);
   }catch(e){
     state.posts=FALLBACK_POSTS.map(parseFrontMatter);
