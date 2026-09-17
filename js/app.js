@@ -109,11 +109,12 @@ async function savePersonaToGitHub(){const status=$("saveStatus");try{status.tex
  }catch(e){status.textContent=e.message}}
 async function saveHomeToGitHub(){const status=$("saveStatus");try{homeSettings={eyebrow:$("homeEyebrow").value.trim(),title:$("homeTitle").value.trim(),accent:$("homeAccent").value.trim(),description:$("homeDescription").value.trim()};status.textContent="HOME 설정 저장 중…";await ghPut("config/home.json",utf8b64(JSON.stringify(homeSettings,null,2)+"\n"),"Update archive home");status.textContent="저장 완료!";setTimeout(()=>showHome(),800)}catch(e){status.textContent=e.message}}
 document.querySelectorAll(".nav-item").forEach(b=>b.onclick=()=>b.dataset.view==="home"?showHome():showPersonas());
-function clearArchiveSearch(){searchInputEl.value="";searchInputEl.setAttribute("value","");state.query=""}
+function clearArchiveSearch(){searchInputEl.textContent="";state.query=""}
 clearArchiveSearch();
 window.addEventListener("pageshow",()=>{clearArchiveSearch();setTimeout(clearArchiveSearch,0);setTimeout(clearArchiveSearch,250)});
 window.addEventListener("load",()=>{clearArchiveSearch();setTimeout(clearArchiveSearch,100);setTimeout(clearArchiveSearch,500)});
-searchInputEl.oninput=e=>{state.query=e.target.value.trim();showPersonas()};newEntryBtnEl.onclick=()=>editor();menuBtnEl.onclick=()=>sidebarEl.classList.toggle("open");themeBtnEl.onclick=()=>document.body.classList.toggle("light");
+searchInputEl.oninput=e=>{state.query=e.target.textContent.trim();showPersonas()};
+searchInputEl.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();}};newEntryBtnEl.onclick=()=>editor();menuBtnEl.onclick=()=>sidebarEl.classList.toggle("open");themeBtnEl.onclick=()=>document.body.classList.toggle("light");
 importMdEl.onchange=async e=>{const f=e.target.files[0];if(f){const p=parseFrontMatter(await f.text(),f.name);state.posts.push(p);editor(state.posts.length-1);state.posts.pop()}e.target.value=""};
 $("githubBtn").onclick=openGitHub;$("githubClose").onclick=()=>$("githubModal").hidden=true;
 $("ghSave").onclick=()=>{localStorage.setItem("personaArchiveGithub",JSON.stringify({owner:$("ghOwner").value.trim(),repo:$("ghRepo").value.trim(),branch:$("ghBranch").value.trim()||"main"}));sessionStorage.setItem("personaArchiveToken",$("ghToken").value.trim());$("githubModal").hidden=true;updateConnectUI()};

@@ -7,13 +7,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Marcellus&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=037">
+<link rel="stylesheet" href="css/style.css?v=038">
 </head>
 <body>
 <div class="app-shell">
 <aside class="sidebar" id="sidebar">
   <div class="brand"><span class="brand-star">✦</span><div><b>PERSONA</b><span>ARCHIVE</span></div></div>
-  <label class="search"><span>⌕</span><input id="searchInput" name="archive_query_no_autofill" type="search" placeholder="Search archive..." autocomplete="new-password" autocapitalize="off" spellcheck="false" data-form-type="other" aria-autocomplete="none" value=""></label>
+  <label class="search"><span>⌕</span><span id="searchInput" class="search-editable" contenteditable="true" role="searchbox" aria-label="Search archive" data-placeholder="Search archive..." spellcheck="false"></span></label>
   <nav class="main-nav">
     <button class="nav-item active" data-view="home">◈ <span>HOME</span></button>
     <button class="nav-item" data-view="personas">◇ <span>PERSONAS</span></button>
@@ -21,7 +21,7 @@
   <section class="side-section"><div class="side-title">WORLDS</div><div id="worldList"></div></section>
   <div class="sidebar-spacer"></div>
   <button class="new-entry" id="newEntryBtn">＋ NEW ENTRY</button>
-  <div class="version">PERSONA ARCHIVE · v0.3.7</div>
+  <div class="version">PERSONA ARCHIVE · v0.3.8</div>
 </aside>
 <main class="main">
 <header class="topbar">
@@ -47,5 +47,5 @@
   <p class="tiny">권한은 이 저장소의 <b>Contents: Read and write</b>만 있으면 됩니다.</p>
  </div>
 </div>
-<script src="js/app.js?v=037"></script>
+<script src="js/app.js?v=038"></script>
 </body></html>
