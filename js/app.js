@@ -11,67 +11,51 @@ function parseFrontMatter(text,file=""){
  const sections=[],rx=/^#\s+(.+)$/gm,matches=[...body.matchAll(rx)];matches.forEach((m,i)=>sections.push({title:m[1].trim(),content:body.slice(m.index+m[0].length,i+1<matches.length?matches[i+1].index:body.length).trim()}));
  return {...meta,name:meta.name||"Untitled",native_name:meta.native_name||"",codename:meta.codename||"",world:meta.world||"",image:meta.image||"",updated:meta.updated||"",tags:Array.isArray(meta.tags)?meta.tags:[],sections,raw:text,_file:file};
 }
-async function fetchTextRetry(url,tries=3){
- let last=null;
- for(let n=0;n<tries;n++){
-  try{
-   const r=await fetch(url+(url.includes("?")?"&":"?")+"v="+Date.now(),{cache:"no-store"});
-   if(r.ok)return await r.text();
-   last=new Error(`${r.status} ${url}`);
-  }catch(e){last=e}
-  if(n<tries-1)await new Promise(res=>setTimeout(res,350*(n+1)));
- }
- throw last||new Error(url);
-}
 async function loadAll(){
- // HOME must render even while/if post data is still loading.
- try{
-  const hr=await fetch("config/home.json?v="+Date.now(),{cache:"no-store"});
-  if(hr.ok)homeSettings={...DEFAULT_HOME,...await hr.json()};
- }catch(e){}
+ // Render HOME immediately. Post loading must never block the first screen.
  showHome();
  updateConnectUI();
 
- let manifest=[];
+ // Home copy is independent from post data.
  try{
-  const raw=await fetchTextRetry("posts/index.json",3);
-  manifest=JSON.parse(raw);
-  if(!Array.isArray(manifest))throw new Error("posts/index.json is not an array");
+  const hr=await fetch("config/home.json");
+  if(hr.ok){
+   homeSettings={...DEFAULT_HOME,...await hr.json()};
+   showHome();
+  }
  }catch(e){
-  state.posts=[];
-  renderSide();
-  showHome();
-  showLoadNotice("목록을 아직 불러오지 못했습니다. 잠시 후 자동으로 다시 확인합니다.");
-  setTimeout(loadAll,1500);
-  return;
+  console.warn("home.json load failed:",e);
  }
 
- const results=await Promise.allSettled(manifest.map(async file=>{
-  const text=await fetchTextRetry("posts/"+file.split("/").map(encodeURIComponent).join("/"),3);
-  return parseFrontMatter(text,file);
- }));
- state.posts=results.filter(r=>r.status==="fulfilled").map(r=>r.value);
+ // Load only files explicitly listed in posts/index.json.
+ try{
+  const r=await fetch("posts/index.json");
+  if(!r.ok)throw new Error(`posts/index.json: ${r.status}`);
+  const manifest=await r.json();
+  if(!Array.isArray(manifest))throw new Error("posts/index.json must be an array");
+
+  const loaded=[];
+  for(const file of manifest){
+   try{
+    // encode each path segment so Korean filenames remain supported.
+    const safePath=String(file).split("/").map(encodeURIComponent).join("/");
+    const x=await fetch("posts/"+safePath);
+    if(!x.ok)throw new Error(`${file}: ${x.status}`);
+    loaded.push(parseFrontMatter(await x.text(),file));
+   }catch(e){
+    // A single broken post must not break HOME or the rest of the archive.
+    console.warn("post load failed:",file,e);
+   }
+  }
+  state.posts=loaded;
+ }catch(e){
+  state.posts=[];
+  console.warn("post index load failed:",e);
+ }
+
  renderSide();
  showHome();
  updateConnectUI();
-
- const failed=results.filter(r=>r.status==="rejected");
- if(failed.length){
-  showLoadNotice(`${failed.length}개 게시글이 아직 배포 중이라 제외되었습니다. 잠시 후 다시 확인합니다.`);
-  setTimeout(loadAll,1800);
- }
-}
-function showLoadNotice(message){
- let box=document.getElementById("loadNotice");
- if(!box){
-  box=document.createElement("div");
-  box.id="loadNotice";
-  box.className="load-notice";
-  document.body.appendChild(box);
- }
- box.textContent=message;
- clearTimeout(showLoadNotice._timer);
- showLoadNotice._timer=setTimeout(()=>box.remove(),2600);
 }
 function initials(p){return(p.codename||p.name||"PA").slice(0,2).toUpperCase()}
 function art(p,cls="card-art"){return`<div class="${cls}">${p.image?`<img src="${esc(p.image)}" alt="" onerror="this.remove();this.parentElement.textContent='${esc(initials(p))}'">`:esc(initials(p))}</div>`}
