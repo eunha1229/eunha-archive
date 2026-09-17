@@ -6,7 +6,7 @@
 <title>Persona Archive</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;500&family=Marcellus&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Marcellus&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -27,11 +27,25 @@
 <header class="topbar">
 <button class="menu-btn" id="menuBtn">☰</button>
 <div class="crumb" id="crumb">ARCHIVE / HOME</div>
-<div class="top-actions"><button class="icon-btn" id="themeBtn">☾</button></div>
+<div class="top-actions"><button class="connect-btn" id="githubBtn">GITHUB · CONNECT</button><button class="icon-btn" id="themeBtn">☾</button></div>
 </header>
 <div id="content"></div>
 </main>
 </div>
 <input type="file" id="importMd" accept=".md,.markdown,text/markdown" hidden>
+<div class="modal-backdrop" id="githubModal" hidden>
+ <div class="modal">
+  <button class="modal-x" id="githubClose">×</button>
+  <div class="eyebrow">✦ GitHub writer</div>
+  <h2>Connect Archive</h2>
+  <p>이 브라우저에서만 사용하는 GitHub fine-grained token을 입력합니다. 저장소 코드는 토큰을 포함하지 않습니다.</p>
+  <label>OWNER<input id="ghOwner" value="eunha1229"></label>
+  <label>REPOSITORY<input id="ghRepo" value="eunha-archive"></label>
+  <label>BRANCH<input id="ghBranch" value="main"></label>
+  <label>FINE-GRAINED TOKEN<input id="ghToken" type="password" placeholder="github_pat_..."></label>
+  <div class="modal-actions"><button class="action-btn primary" id="ghSave">CONNECT</button><button class="action-btn" id="ghForget">FORGET TOKEN</button></div>
+  <p class="tiny">권한은 이 저장소의 <b>Contents: Read and write</b>만 있으면 됩니다.</p>
+ </div>
+</div>
 <script src="js/app.js"></script>
 </body></html>
