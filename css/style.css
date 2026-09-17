@@ -32,3 +32,8 @@ button,input,textarea{font:inherit}.app-shell{min-height:100vh;display:grid;grid
 .modal{width:min(520px,100%);background:#0b1024;border:1px solid var(--line);border-radius:14px;padding:28px;box-shadow:0 25px 80px rgba(0,0,0,.5);position:relative}.modal h2{font:300 28px "Hahmlet",serif}.modal p{color:var(--muted);font-size:11px;line-height:1.7}.modal label{display:grid;gap:6px;color:#737da5;font-size:8px;letter-spacing:.14em;margin-top:11px}.modal input{border:1px solid var(--line);background:#080d20;color:var(--text);border-radius:8px;padding:10px;outline:none}.modal-x{position:absolute;right:15px;top:12px;border:0;background:transparent;color:#8e97bd;font-size:22px;cursor:pointer}.modal-actions{display:flex;gap:8px;margin-top:18px}.tiny{font-size:9px!important}
 .save-status{font-size:10px;color:#8fc8ff;margin-top:12px;min-height:16px}
 
+
+/* v0.3.6 section types */
+.section-kind{font-family:Marcellus,serif;font-size:9px;letter-spacing:.18em;color:#64719a;margin:0 0 7px 2px}
+.copy-section-editor{border-color:#514b91;background:linear-gradient(180deg,rgba(74,66,140,.09),rgba(9,14,34,.15))}
+.copy-section-editor .section-kind{color:#9b91ff}
