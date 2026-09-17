@@ -11,11 +11,67 @@ function parseFrontMatter(text,file=""){
  const sections=[],rx=/^#\s+(.+)$/gm,matches=[...body.matchAll(rx)];matches.forEach((m,i)=>sections.push({title:m[1].trim(),content:body.slice(m.index+m[0].length,i+1<matches.length?matches[i+1].index:body.length).trim()}));
  return {...meta,name:meta.name||"Untitled",native_name:meta.native_name||"",codename:meta.codename||"",world:meta.world||"",image:meta.image||"",updated:meta.updated||"",tags:Array.isArray(meta.tags)?meta.tags:[],sections,raw:text,_file:file};
 }
+async function fetchTextRetry(url,tries=3){
+ let last=null;
+ for(let n=0;n<tries;n++){
+  try{
+   const r=await fetch(url+(url.includes("?")?"&":"?")+"v="+Date.now(),{cache:"no-store"});
+   if(r.ok)return await r.text();
+   last=new Error(`${r.status} ${url}`);
+  }catch(e){last=e}
+  if(n<tries-1)await new Promise(res=>setTimeout(res,350*(n+1)));
+ }
+ throw last||new Error(url);
+}
 async function loadAll(){
- try{const hr=await fetch("config/home.json?"+Date.now());if(hr.ok)homeSettings={...DEFAULT_HOME,...await hr.json()}}catch(e){}
- try{const r=await fetch("posts/index.json?"+Date.now());if(!r.ok)throw new Error("index");const manifest=await r.json();const texts=await Promise.all(manifest.map(async file=>{const x=await fetch("posts/"+encodeURIComponent(file)+"?"+Date.now());if(!x.ok)throw new Error(file);return [await x.text(),file]}));state.posts=texts.map(([t,f])=>parseFrontMatter(t,f))}
- catch(e){contentEl.innerHTML='<div class="empty">POSTS를 불러오지 못했습니다. posts/index.json을 확인해주세요.</div>';return}
- renderSide();showHome();updateConnectUI();
+ // HOME must render even while/if post data is still loading.
+ try{
+  const hr=await fetch("config/home.json?v="+Date.now(),{cache:"no-store"});
+  if(hr.ok)homeSettings={...DEFAULT_HOME,...await hr.json()};
+ }catch(e){}
+ showHome();
+ updateConnectUI();
+
+ let manifest=[];
+ try{
+  const raw=await fetchTextRetry("posts/index.json",3);
+  manifest=JSON.parse(raw);
+  if(!Array.isArray(manifest))throw new Error("posts/index.json is not an array");
+ }catch(e){
+  state.posts=[];
+  renderSide();
+  showHome();
+  showLoadNotice("목록을 아직 불러오지 못했습니다. 잠시 후 자동으로 다시 확인합니다.");
+  setTimeout(loadAll,1500);
+  return;
+ }
+
+ const results=await Promise.allSettled(manifest.map(async file=>{
+  const text=await fetchTextRetry("posts/"+file.split("/").map(encodeURIComponent).join("/"),3);
+  return parseFrontMatter(text,file);
+ }));
+ state.posts=results.filter(r=>r.status==="fulfilled").map(r=>r.value);
+ renderSide();
+ showHome();
+ updateConnectUI();
+
+ const failed=results.filter(r=>r.status==="rejected");
+ if(failed.length){
+  showLoadNotice(`${failed.length}개 게시글이 아직 배포 중이라 제외되었습니다. 잠시 후 다시 확인합니다.`);
+  setTimeout(loadAll,1800);
+ }
+}
+function showLoadNotice(message){
+ let box=document.getElementById("loadNotice");
+ if(!box){
+  box=document.createElement("div");
+  box.id="loadNotice";
+  box.className="load-notice";
+  document.body.appendChild(box);
+ }
+ box.textContent=message;
+ clearTimeout(showLoadNotice._timer);
+ showLoadNotice._timer=setTimeout(()=>box.remove(),2600);
 }
 function initials(p){return(p.codename||p.name||"PA").slice(0,2).toUpperCase()}
 function art(p,cls="card-art"){return`<div class="${cls}">${p.image?`<img src="${esc(p.image)}" alt="" onerror="this.remove();this.parentElement.textContent='${esc(initials(p))}'">`:esc(initials(p))}</div>`}
