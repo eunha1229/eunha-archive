@@ -25,8 +25,10 @@ partner: 야구가장난이냐
 # BACKGROUND
 태어난 곳이 부산 사직이었던 게 문제였을까요
 
+<!-- persona-archive:copy -->
 # CHARACTER PROMPT
 girl, cute, adult,
 
+<!-- persona-archive:copy -->
 # DEFAULT OUTFIT
 white dress shirt, black neck ribbon, oversized beige cardigan
