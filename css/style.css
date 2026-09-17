@@ -41,3 +41,6 @@ button,input,textarea{font:inherit}.app-shell{min-height:100vh;display:grid;grid
 /* v0.3.8: search uses contenteditable instead of input to avoid browser autofill */
 .search-editable{display:block;flex:1;min-width:0;outline:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);font:inherit;line-height:1.4}
 .search-editable:empty::before{content:attr(data-placeholder);color:var(--muted);pointer-events:none}
+
+/* v0.3.9 credit */
+.credit{text-align:center;margin-top:6px;font:8px Marcellus,serif;letter-spacing:.08em;color:#555f82}

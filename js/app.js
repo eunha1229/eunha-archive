@@ -103,9 +103,10 @@ async function deletePersona(i){const p=state.posts[i];if(!p)return;const filena
  }catch(e){alert(`삭제하지 못했습니다.\n${e.message}`);showDetail(i)}}
 async function savePersonaToGitHub(){const status=$("saveStatus");try{status.textContent="게시글과 이미지를 GitHub에 저장 중…";const d=formData(),old=editingIndex!==null?state.posts[editingIndex]:null;let filename=old ? (old._file || slugify(d.codename||d.name)+".md") : (slugify(d.codename||d.name)+".md"), imagePath=old?.image||"";
  if(selectedImage){const ext=(selectedImage.name.split(".").pop()||"webp").toLowerCase().replace(/[^a-z0-9]/g,"");imagePath=`assets/characters/${slugify(d.codename||d.name)}.${ext}`;await ghPut(imagePath,await fileB64(selectedImage),`Update image: ${d.name}`)}
- await ghPut(`posts/${filename}`,utf8b64(buildMd(imagePath)),`${old?"Update":"Add"} persona: ${d.name}`);
+ const mdText=buildMd(imagePath);await ghPut(`posts/${filename}`,utf8b64(mdText),`${old?"Update":"Add"} persona: ${d.name}`);
  const idx=await ghGet("posts/index.json");let list=[];if(idx?.content)list=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(idx.content.replace(/\n/g,"")),c=>c.charCodeAt(0))));if(!list.includes(filename))list.push(filename);await ghPut("posts/index.json",utf8b64(JSON.stringify(list,null,2)+"\n"),`Update persona index`);
- status.textContent="게시글 저장 완료! GitHub Pages 재배포 후 자동 반영됩니다.";setTimeout(()=>location.reload(),2200)
+ // Optimistic UI: GitHub Pages deployment can finish in the background; update this browser immediately.
+ const saved=parseFrontMatter(mdText,filename);if(old){state.posts[editingIndex]=saved}else{state.posts.push(saved);editingIndex=state.posts.length-1}renderSide();status.textContent="저장 완료! 이 화면에는 즉시 반영되었습니다. 공개 Pages 배포는 뒤에서 진행됩니다.";showDetail(editingIndex)
  }catch(e){status.textContent=e.message}}
 async function saveHomeToGitHub(){const status=$("saveStatus");try{homeSettings={eyebrow:$("homeEyebrow").value.trim(),title:$("homeTitle").value.trim(),accent:$("homeAccent").value.trim(),description:$("homeDescription").value.trim()};status.textContent="HOME 설정 저장 중…";await ghPut("config/home.json",utf8b64(JSON.stringify(homeSettings,null,2)+"\n"),"Update archive home");status.textContent="저장 완료!";setTimeout(()=>showHome(),800)}catch(e){status.textContent=e.message}}
 document.querySelectorAll(".nav-item").forEach(b=>b.onclick=()=>b.dataset.view==="home"?showHome():showPersonas());
