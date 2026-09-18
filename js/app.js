@@ -18,54 +18,66 @@ function parseFrontMatter(text,file=""){
  const sections=[],rx=/^(<!-- persona-archive:copy -->\n)?#\s+(.+)$/gm,matches=[...body.matchAll(rx)];matches.forEach((m,i)=>{const title=m[2].trim();sections.push({title,content:body.slice(m.index+m[0].length,i+1<matches.length?matches[i+1].index:body.length).trim(),type:(m[1]||/PROMPT|OOC/i.test(title))?"copy":"text"})});
  return {...meta,name:meta.name||"Untitled",native_name:meta.native_name||"",codename:meta.codename||"",world:meta.world||"",image:meta.image||"",updated:meta.updated||"",tags:Array.isArray(meta.tags)?meta.tags:[],sections,raw:text,_file:file};
 }
+async function decodeGhText(item){
+ const raw=String(item?.content||"").replace(/\n/g,"");
+ return new TextDecoder().decode(Uint8Array.from(atob(raw),c=>c.charCodeAt(0)))
+}
+async function loadPostsFromGitHub(){
+ const idx=await ghGet("posts/index.json");
+ if(!idx?.content)return [];
+ const manifest=JSON.parse(await decodeGhText(idx));
+ if(!Array.isArray(manifest))throw new Error("posts/index.json must be an array");
+ const loaded=[];
+ for(const file of manifest){
+  try{
+   const item=await ghGet(`posts/${file}`);
+   if(!item?.content)throw new Error(`${file}: not found`);
+   loaded.push(parseFrontMatter(await decodeGhText(item),file));
+  }catch(e){console.warn("GitHub post load failed:",file,e)}
+ }
+ return loaded
+}
+async function loadPostsFromPages(){
+ const stamp=Date.now();
+ const r=await fetch(`posts/index.json?v=${stamp}`,{cache:"no-store"});
+ if(!r.ok)throw new Error(`posts/index.json: ${r.status}`);
+ const manifest=await r.json();
+ if(!Array.isArray(manifest))throw new Error("posts/index.json must be an array");
+ const loaded=[];
+ for(const file of manifest){
+  try{
+   const safePath=String(file).split("/").map(encodeURIComponent).join("/");
+   const x=await fetch(`posts/${safePath}?v=${stamp}`,{cache:"no-store"});
+   if(!x.ok)throw new Error(`${file}: ${x.status}`);
+   loaded.push(parseFrontMatter(await x.text(),file));
+  }catch(e){console.warn("post load failed:",file,e)}
+ }
+ return loaded
+}
 async function loadAll(){
- // Render HOME immediately. Post loading must never block the first screen.
- showHome();
- updateConnectUI();
-
- // Home copy is independent from post data.
+ showHome();updateConnectUI();
  try{
-  const hr=await fetch("config/home.json");
-  if(hr.ok){
-   homeSettings={...DEFAULT_HOME,...await hr.json()};
-   showHome();
+  if(isOwnerMode()){
+   const item=await ghGet("config/home.json");
+   if(item?.content)homeSettings={...DEFAULT_HOME,...JSON.parse(await decodeGhText(item))};
+  }else{
+   const hr=await fetch(`config/home.json?v=${Date.now()}`,{cache:"no-store"});
+   if(hr.ok)homeSettings={...DEFAULT_HOME,...await hr.json()};
   }
- }catch(e){
-  console.warn("home.json load failed:",e);
- }
-
- // Load only files explicitly listed in posts/index.json.
+  showHome();
+ }catch(e){console.warn("home.json load failed:",e)}
  try{
-  const r=await fetch("posts/index.json");
-  if(!r.ok)throw new Error(`posts/index.json: ${r.status}`);
-  const manifest=await r.json();
-  if(!Array.isArray(manifest))throw new Error("posts/index.json must be an array");
-
-  const loaded=[];
-  for(const file of manifest){
-   try{
-    // encode each path segment so Korean filenames remain supported.
-    const safePath=String(file).split("/").map(encodeURIComponent).join("/");
-    const x=await fetch("posts/"+safePath);
-    if(!x.ok)throw new Error(`${file}: ${x.status}`);
-    loaded.push(parseFrontMatter(await x.text(),file));
-   }catch(e){
-    // A single broken post must not break HOME or the rest of the archive.
-    console.warn("post load failed:",file,e);
-   }
-  }
-  state.posts=loaded;
- }catch(e){
-  state.posts=[];
-  console.warn("post index load failed:",e);
- }
-
- renderSide();
- applyOwnerUI();
- routeFromHash();
+  state.posts=isOwnerMode()?await loadPostsFromGitHub():await loadPostsFromPages();
+ }catch(e){state.posts=[];console.warn("post index load failed:",e)}
+ renderSide();applyOwnerUI();routeFromHash();
 }
 function initials(p){return(p.codename||p.name||"PA").slice(0,2).toUpperCase()}
-function art(p,cls="card-art"){return`<div class="${cls}">${p.image?`<img src="${esc(p.image)}" alt="" onerror="this.remove();this.parentElement.textContent='${esc(initials(p))}'">`:esc(initials(p))}</div>`}
+function displayImageSrc(src=""){
+ const path=imageRepoPath(src);if(!path)return "";
+ if(isOwnerMode()&&!/^https?:/i.test(path)){const c=ghConfig();return `https://raw.githubusercontent.com/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/${encodeURIComponent(c.branch||"main")}/${path.split("/").map(encodeURIComponent).join("/")}?v=${Date.now()}`}
+ return src
+}
+function art(p,cls="card-art"){const src=displayImageSrc(p.image);return`<div class="${cls}">${src?`<img src="${esc(src)}" alt="" onerror="this.remove();this.parentElement.textContent='${esc(initials(p))}'">`:esc(initials(p))}</div>`}
 function card(p,i){return`<article class="persona-card" onclick="showDetail(${i})">${art(p)}<div class="card-body"><div class="card-world">${esc(p.world||"UNFILED")}</div><div class="card-name">${esc(p.name)}</div>${p.native_name?`<div class="card-native">${esc(p.native_name)}</div>`:""}<div class="card-code">${esc(p.codename)}</div></div></article>`}
 function renderSide(){const worlds=[...new Set(state.posts.map(p=>p.world).filter(Boolean))].sort();worldListEl.innerHTML=worlds.map(w=>`<button class="world-btn" data-world="${esc(w)}">⌞ ${esc(w)}</button>`).join("");worldListEl.querySelectorAll("[data-world]").forEach(b=>b.onclick=()=>{state.filterWorld=b.dataset.world;showPersonas()})}
 function setCrumb(s){crumbEl.textContent="ARCHIVE / "+String(s).toUpperCase()} function navActive(v){document.querySelectorAll(".nav-item").forEach(x=>x.classList.toggle("active",x.dataset.view===v))}
@@ -129,7 +141,7 @@ searchInputEl.oninput=e=>{state.query=e.target.textContent.trim();showPersonas()
 searchInputEl.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();}};newEntryBtnEl.onclick=()=>editor();menuBtnEl.onclick=()=>sidebarEl.classList.toggle("open");themeBtnEl.onclick=()=>document.body.classList.toggle("light");
 importMdEl.onchange=async e=>{const f=e.target.files[0];if(f){const p=parseFrontMatter(await f.text(),f.name);state.posts.push(p);editor(state.posts.length-1);state.posts.pop()}e.target.value=""};
 $("githubBtn").onclick=openGitHub;$("githubClose").onclick=()=>$("githubModal").hidden=true;
-$("ghSave").onclick=()=>{localStorage.setItem("personaArchiveGithub",JSON.stringify({owner:$("ghOwner").value.trim(),repo:$("ghRepo").value.trim(),branch:$("ghBranch").value.trim()||"main"}));sessionStorage.setItem("personaArchiveToken",$("ghToken").value.trim());$("githubModal").hidden=true;applyOwnerUI()};
+$("ghSave").onclick=()=>{localStorage.setItem("personaArchiveGithub",JSON.stringify({owner:$("ghOwner").value.trim(),repo:$("ghRepo").value.trim(),branch:$("ghBranch").value.trim()||"main"}));sessionStorage.setItem("personaArchiveToken",$("ghToken").value.trim());$("githubModal").hidden=true;applyOwnerUI();loadAll()};
 $("ghForget").onclick=()=>{sessionStorage.removeItem("personaArchiveToken");$("ghToken").value="";applyOwnerUI();routeFromHash()};
 window.addEventListener("hashchange",()=>routeFromHash());
 applyOwnerUI();
