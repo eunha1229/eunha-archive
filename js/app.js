@@ -94,12 +94,7 @@ function editHome(){navActive("");setCrumb("EDIT HOME");const h=homeSettings;con
 function ghConfig(){try{return JSON.parse(localStorage.getItem("personaArchiveGithub")||"{}")}catch(e){return{}}}
 function token(){return sessionStorage.getItem("personaArchiveToken")||""}
 function updateConnectUI(){const c=ghConfig(),ok=!!(c.owner&&c.repo&&token());$("githubBtn").textContent=ok?"GITHUB · CONNECTED":"GITHUB · CONNECT";$("githubBtn").classList.toggle("connected",ok)}
-function inferGitHubRepo(){
- const host=location.hostname.toLowerCase(),parts=location.pathname.split("/").filter(Boolean);
- if(host.endsWith(".github.io")){const owner=host.slice(0,-".github.io".length);const repo=parts[0]||`${owner}.github.io`;return{owner,repo}}
- return{owner:"",repo:""}
-}
-function openGitHub(){const c=ghConfig(),guess=inferGitHubRepo();$("ghOwner").value=c.owner||guess.owner||"";$("ghRepo").value=c.repo||guess.repo||"";$("ghBranch").value=c.branch||"main";$("ghToken").value="";$("githubModal").hidden=false}
+function openGitHub(){const c=ghConfig();$("ghOwner").value=c.owner||"eunha1229";$("ghRepo").value=c.repo||"eunha-archive";$("ghBranch").value=c.branch||"main";$("ghToken").value="";$("githubModal").hidden=false}
 function requireGitHub(){const c=ghConfig();if(!c.owner||!c.repo||!token()){openGitHub();throw new Error("GitHub 연결이 필요합니다.")}return c}
 async function ghRequest(path,opts={}){const c=requireGitHub(),r=await fetch(`https://api.github.com/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/${path}`,{...opts,headers:{"Accept":"application/vnd.github+json","Authorization":`Bearer ${token()}`,"X-GitHub-Api-Version":"2022-11-28","Content-Type":"application/json",...(opts.headers||{})}});if(!r.ok){let msg="";try{msg=(await r.json()).message}catch(e){}throw new Error(`GitHub ${r.status}: ${msg||r.statusText}`)}return r.json()}
 async function ghGet(path){try{return await ghRequest(path+`?ref=${encodeURIComponent(ghConfig().branch||"main")}`)}catch(e){if(String(e.message).includes("404"))return null;throw e}}
