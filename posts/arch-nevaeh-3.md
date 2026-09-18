@@ -1,0 +1,33 @@
+---
+name: Avalon-0001
+native_name: Null
+codename: NEVAEH
+world: ARCH
+slug: arch-nevaeh-3
+tags: [Guide-S, Aqua, Sentinel-S, Aqua]
+image: assets/characters/arch-nevaeh-3.png?v=1789719871005
+updated: 2026-09-18
+age: ??
+gender: ??
+birthday: ??
+height: 302.7cm (꼬리 지느러미 포함)
+nationality: Avalon
+partner: JUSTICE
+---
+
+# CHARACTER
+
+
+# BACKGROUND
+
+
+<!-- persona-archive:copy -->
+# CHARACTER PROMPT
+girl,
+2::vivid violet eyes::, very long eyelashes, a lot of eyelashes, weak cat-like impression,
+bluish black hair, 3::right-swept bangs::, very long layered hair, wavy hair, a lot of hair, -2::hime-cut, forehead, fringe, blunt, pony tail::,
+white skin, 1.4::big breast::, 2::humans ear::,
+
+long mermaid tail, detailed iridescent scales, [purple-blue gradient scales::], glossy shimmering scales, extravagant layered fins,
+2::semi-transparent translucent fins::, flowing ribbon-like fins, ruffled fin edges, large split tail fin, side fins, dorsal fins, pearlescent texture, subtle glow,
+-1::scales on upper body::, -1::fabric, veil, clothes::,
