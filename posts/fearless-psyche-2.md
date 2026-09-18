@@ -1,18 +1,18 @@
 ---
 name: 주은하
 native_name: 周銀河
-codename: Psyche
-world: Fearless
+codename: Kore
+world: ARCH
 slug: fearless-psyche-2
-tags: [Guide-A]
+tags: [Guide-A, Neutral]
 image: assets/characters/fearless-psyche-2.png?v=1789702440206
 updated: 2026-09-18
-age: 
-gender: 
-birthday: 
-height: 
-nationality: 
-partner: 
+age: 26
+gender: Cis F.
+birthday: 09/30
+height: 161.2cm
+nationality: Korea
+partner: Santa
 ---
 
 # CHARACTER
