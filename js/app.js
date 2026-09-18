@@ -11,6 +11,7 @@ function applyOwnerUI(){const owner=isOwnerMode();document.body.classList.toggle
 function routeFromHash(){const route=decodeURIComponent(location.hash.replace(/^#\/?/,""));if(!route||route==="home"){showHome(false);return}if(route==="personas"){showPersonas(false);return}const slug=route.replace(/^persona\//,"");const i=state.posts.findIndex(p=>postSlug(p)===slug);if(i>=0){showDetail(i,false);return}showHome(false)}
 
 function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function imageRepoPath(src=""){return String(src||"").replace(/^\.\//,"").split(/[?#]/,1)[0]}
 function parseFrontMatter(text,file=""){
  const normalized=String(text??"").replace(/^\uFEFF/,"").replace(/\r\n?/g,"\n").trimStart();let meta={},body=normalized;
  if(normalized.startsWith("---")){const lines=normalized.split("\n"),closing=lines.findIndex((l,i)=>i>0&&l.trim()==="---");if(closing>0){body=lines.slice(closing+1).join("\n").trim();lines.slice(1,closing).forEach(line=>{const i=line.indexOf(":");if(i<0)return;const key=line.slice(0,i).trim().toLowerCase();let raw=line.slice(i+1).trim();if((raw.startsWith('"')&&raw.endsWith('"'))||(raw.startsWith("'")&&raw.endsWith("'")))raw=raw.slice(1,-1);meta[key]=key==="tags"?raw.replace(/^\s*\[/,"").replace(/\]\s*$/,"").split(",").map(s=>s.trim().replace(/^['"]|['"]$/g,"")).filter(Boolean):raw})}}
@@ -107,11 +108,11 @@ function showToast(message){let t=document.getElementById("archiveToast");if(!t)
 async function deletePersona(i){const p=state.posts[i];if(!p)return;const filename=p._file;if(!filename){alert("이 게시글의 파일명을 확인할 수 없어 삭제하지 않았습니다.");return}const ok=confirm(`“${p.name}”을(를) 정말 삭제할까요?\n\n게시글은 Archive에서 제거되며, 전용 업로드 이미지가 다른 게시글에서 사용되지 않는 경우 이미지도 함께 삭제됩니다.`);if(!ok)return;try{requireGitHub();const btn=document.querySelector(".delete-entry-btn");if(btn){btn.disabled=true;btn.textContent="DELETING…"}
  await updatePersonaIndex(list=>list.filter(f=>f!==filename),`Remove persona from index: ${p.name}`);
  await ghDelete(`posts/${filename}`,`Delete persona: ${p.name}`);
- const imagePath=(p.image||"").replace(/^\.\//,"");const imageShared=imagePath&&state.posts.some((other,oi)=>oi!==i&&(other.image||"").replace(/^\.\//,"")===imagePath);if(imagePath.startsWith("assets/characters/")&&!imageShared)await ghDelete(imagePath,`Delete image: ${p.name}`);
+ const imagePath=imageRepoPath(p.image);const imageShared=imagePath&&state.posts.some((other,oi)=>oi!==i&&imageRepoPath(other.image)===imagePath);if(imagePath.startsWith("assets/characters/")&&!imageShared)await ghDelete(imagePath,`Delete image: ${p.name}`);
  state.posts.splice(i,1);renderSide();showHome();showToast(`“${p.name}” 삭제 완료! 이 화면에는 즉시 반영되었습니다.`)
  }catch(e){alert(`삭제하지 못했습니다.\n${e.message}`);showDetail(i)}}
 async function savePersonaToGitHub(){const status=$("saveStatus");try{status.textContent="게시글과 이미지를 GitHub에 저장 중…";const d=formData(),old=editingIndex!==null?state.posts[editingIndex]:null;let filename=old ? (old._file || slugify(d.codename||d.name)+".md") : (slugify(d.codename||d.name)+".md"), imagePath=old?.image||"";
- if(selectedImage){const ext=(selectedImage.name.split(".").pop()||"webp").toLowerCase().replace(/[^a-z0-9]/g,"");imagePath=`assets/characters/${slugify(d.codename||d.name)}.${ext}`;await ghPut(imagePath,await fileB64(selectedImage),`Update image: ${d.name}`)}
+ if(selectedImage){const ext=(selectedImage.name.split(".").pop()||"webp").toLowerCase().replace(/[^a-z0-9]/g,"");const repoImagePath=`assets/characters/${slugify(d.codename||d.name)}.${ext}`;await ghPut(repoImagePath,await fileB64(selectedImage),`Update image: ${d.name}`);imagePath=`${repoImagePath}?v=${Date.now()}`}
  const mdText=buildMd(imagePath);await ghPut(`posts/${filename}`,utf8b64(mdText),`${old?"Update":"Add"} persona: ${d.name}`);
  await updatePersonaIndex(list=>{if(!list.includes(filename))list.push(filename);return list},`Update persona index`);
  // Optimistic UI: GitHub Pages deployment can finish in the background; update this browser immediately.
