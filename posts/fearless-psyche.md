@@ -1,7 +1,7 @@
 ---
 name: 주은하
 native_name: 周銀河
-codename: Psyche
+codename: PSYCHE
 world: Fearless
 slug: fearless-psyche
 tags: [Guide-A]
@@ -12,7 +12,7 @@ gender: Cis F.
 birthday: 09/30
 height: 161.2cm
 nationality: Korea
-partner: Imperial
+partner: IMPERIAL
 ---
 
 # CHARACTER
