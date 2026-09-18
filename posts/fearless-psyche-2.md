@@ -1,7 +1,7 @@
 ---
 name: 주은하
 native_name: 周銀河
-codename: Kore
+codename: KORE
 world: ARCH
 slug: fearless-psyche-2
 tags: [Guide-A, Neutral]
@@ -12,7 +12,7 @@ gender: Cis F.
 birthday: 09/30
 height: 161.2cm
 nationality: Korea
-partner: Santa
+partner: SANTA
 ---
 
 # CHARACTER
