@@ -1,7 +1,7 @@
 ---
 name: 주은하
 native_name: 周銀河
-codename: Kore
+codename: Psyche
 world: Fearless
 tags: [Guide-A]
 image: assets/characters/kore.png?v=1789701261282
