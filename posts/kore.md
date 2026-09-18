@@ -5,7 +5,7 @@ codename: Kore
 world: ARCH
 tags: [Guide-A, Sentinel-A, Verde]
 image: assets/characters/kore.png
-updated: 2026-09-17
+updated: 2026-09-18
 age: 26
 gender: Cis F.
 birthday: 09/30
