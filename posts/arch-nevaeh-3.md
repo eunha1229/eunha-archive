@@ -5,14 +5,16 @@ codename: NEVAEH
 world: ARCH
 slug: arch-nevaeh-3
 tags: [Guide-S, Aqua, Sentinel-S, Aqua]
-image: assets/characters/arch-nevaeh-3.png?v=1789719871005
-updated: 2026-09-18
+image: assets/characters/arch-nevaeh-3.png?v=1789983997113
+updated: 2026-09-21
 age: ??
 gender: ??
 birthday: ??
 height: 302.7cm (꼬리 지느러미 포함)
 nationality: Avalon
 partner: JUSTICE
+catchphrase: ORIGIN : LEGEND
+summary: 이야기가 쌓여 형체가 되고, 감정이 쌓여 영혼이 된다. 회자되는 이상, 생을 입지 못할 것은 아무것도 없다.
 ---
 
 # CHARACTER
