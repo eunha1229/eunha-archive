@@ -1,7 +1,7 @@
 ---
 name: 하연우
 native_name: 河緣優
-codename: Eos
+codename: EOS
 world: ARCH
 slug: arch-eos
 tags: [Guide-S, Glacies]
