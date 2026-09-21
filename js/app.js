@@ -87,7 +87,35 @@ function getFiltered(){const q=state.query.toLowerCase();return state.posts.map(
 function showPersonas(updateHash=true){if(updateHash)setHash("personas");navActive("personas");setCrumb("PERSONAS");const list=getFiltered();contentEl.innerHTML=`<section class="hero"><div class="eyebrow">Archive Index</div><h1>Persona <em>Index</em></h1><p>${state.filterCategory?`CATEGORY · ${esc(state.filterCategory)}`:state.filterWorld?`WORLD · ${esc(state.filterWorld)}`:"전체 페르소나"}</p></section><div class="section-head"><h2>${list.length} ENTRIES</h2><span>${state.filterCategory||state.filterWorld||"ALL"}</span></div><div class="card-grid">${list.map(({p,i})=>card(p,i)).join("")||'<div class="empty">조건에 맞는 페르소나가 없습니다.</div>'}</div>`;closeSide()}
 function profileGrid(p){return`<div class="profile-grid">${[["AGE",p.age],["GENDER",p.gender],["BIRTHDAY",p.birthday],["HEIGHT",p.height],["NATIONALITY",p.nationality],["PARTNER",p.partner]].map(([l,v])=>`<div class="profile-cell"><div class="profile-label">${l}</div><div class="profile-value ${v?"":"empty-value"}">${esc(v||"—")}</div></div>`).join("")}</div>`}
 function galleryHtml(p){const items=(p.gallery||[]).filter(Boolean);if(!items.length)return "";return`<section class="persona-gallery"><div class="section-head"><h2>GALLERY</h2><span>${items.length} IMAGES</span></div><div class="gallery-grid">${items.map((src,gi)=>`<button class="gallery-item" onclick="openGalleryImage(${JSON.stringify(displayImageSrc(src))})"><img src="${esc(displayImageSrc(src))}" alt="${esc(p.name)} gallery ${gi+1}" loading="lazy"></button>`).join("")}</div></section>`}
-function openGalleryImage(src){const w=window.open(src,"_blank","noopener,noreferrer");if(w)w.opener=null}
+let lightboxItems=[],lightboxIndex=0;
+function ensureGalleryLightbox(){
+ if($("galleryLightbox"))return;
+ const el=document.createElement("div");el.id="galleryLightbox";el.className="gallery-lightbox";el.hidden=true;
+ el.innerHTML=`<button class="gallery-lightbox-close" aria-label="Close gallery">×</button><button class="gallery-lightbox-nav prev" aria-label="Previous image">‹</button><div class="gallery-lightbox-stage"><img alt="Gallery image"><div class="gallery-lightbox-count"></div></div><button class="gallery-lightbox-nav next" aria-label="Next image">›</button>`;
+ document.body.appendChild(el);
+ el.querySelector(".gallery-lightbox-close").onclick=closeGalleryLightbox;
+ el.querySelector(".prev").onclick=e=>{e.stopPropagation();stepGalleryLightbox(-1)};
+ el.querySelector(".next").onclick=e=>{e.stopPropagation();stepGalleryLightbox(1)};
+ el.querySelector(".gallery-lightbox-stage").onclick=e=>e.stopPropagation();
+ el.onclick=closeGalleryLightbox;
+}
+function openGalleryImage(src){
+ ensureGalleryLightbox();
+ lightboxItems=[...document.querySelectorAll(".gallery-grid .gallery-item img")].map(img=>img.src);
+ lightboxIndex=Math.max(0,lightboxItems.indexOf(new URL(src,location.href).href));
+ if(lightboxIndex<0)lightboxIndex=0;
+ renderGalleryLightbox();
+ const el=$("galleryLightbox");el.hidden=false;document.body.classList.add("lightbox-open");
+}
+function renderGalleryLightbox(){
+ const el=$("galleryLightbox");if(!el||!lightboxItems.length)return;
+ el.querySelector("img").src=lightboxItems[lightboxIndex];
+ el.querySelector(".gallery-lightbox-count").textContent=`${lightboxIndex+1} / ${lightboxItems.length}`;
+ const many=lightboxItems.length>1;el.querySelector(".prev").hidden=!many;el.querySelector(".next").hidden=!many;
+}
+function stepGalleryLightbox(dir){if(!lightboxItems.length)return;lightboxIndex=(lightboxIndex+dir+lightboxItems.length)%lightboxItems.length;renderGalleryLightbox()}
+function closeGalleryLightbox(){const el=$("galleryLightbox");if(el)el.hidden=true;document.body.classList.remove("lightbox-open")}
+document.addEventListener("keydown",e=>{const el=$("galleryLightbox");if(!el||el.hidden)return;if(e.key==="Escape")closeGalleryLightbox();else if(e.key==="ArrowLeft")stepGalleryLightbox(-1);else if(e.key==="ArrowRight")stepGalleryLightbox(1)});
 function showDetail(i,updateHash=true){const p=state.posts[i];if(!p)return;if(updateHash)setHash("persona/"+encodeURIComponent(postSlug(p)));navActive("");setCrumb(p.codename||p.name);const sections=p.sections.map((s,si)=>{const prompt=s.type==="copy"||/PROMPT|OOC/i.test(s.title);return`<section class="doc-section"><h2>${esc(s.title)}</h2>${prompt?`<div class="prompt-box"><div class="prompt-top"><span>COPY SECTION</span><button class="copy-btn" onclick="copyPrompt(${i},${si},this)">COPY</button></div><pre>${esc(s.content)}</pre></div>`:`<div class="prose">${esc(s.content)}</div>`}</section>`}).join("");contentEl.innerHTML=`<button class="back-btn" onclick="showPersonas()">← BACK TO INDEX</button>${isOwnerMode()?`<div class="detail-tools"><button class="delete-entry-btn" onclick="deletePersona(${i})">DELETE ENTRY</button><button class="edit-entry-btn" onclick="editor(${i})">✎ EDIT ENTRY</button></div>`:""}<div class="detail-head">${art(p,"portrait")}<div class="detail-title"><div class="eyebrow">${esc(p.world||"UNFILED")}</div><div class="detail-name-block"><div class="code">${esc(p.codename)}</div><div class="detail-name-row"><h1>${esc(p.name)}</h1>${p.native_name?`<div class="native-name">${esc(p.native_name)}</div>`:""}</div></div><div class="detail-tags">${p.tags.map(t=>`<span class="tag-chip">#${esc(t)}</span>`).join("")}</div>${(p.catchphrase||p.summary)?`<div class="character-intro">${p.catchphrase?`<div class="character-catchphrase">${esc(p.catchphrase)}</div>`:""}${p.summary?`<div class="character-summary">${esc(p.summary)}</div>`:""}</div>`:""}</div></div>${profileGrid(p)}<div class="detail-body">${sections}</div>${galleryHtml(p)}`;window.scrollTo(0,0);closeSide()}
 async function copyPrompt(i,si,b){await navigator.clipboard.writeText(state.posts[i].sections[si].content);b.textContent="COPIED";setTimeout(()=>b.textContent="COPY",1000)}
 function field(id,label,val="",cls=""){return`<div class="field ${cls}"><label>${label}</label><input id="${id}" value="${esc(val||"")}"></div>`}
