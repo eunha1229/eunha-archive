@@ -3,13 +3,13 @@ name: 이렌 발레트
 native_name: Irène Valette
 codename: ANIMA
 world: THEMIS
-category: OTHER
+category: MAIN
 slug: themis-anima
 tags: [Guide-S, Sentinel-S]
 image: assets/characters/themis-anima.png?v=1790008839656
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T16:40:39.656Z
+updated_at: 2026-09-21T16:56:49.995Z
 age: ??
 gender: Cis F.
 birthday: 
