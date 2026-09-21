@@ -9,7 +9,7 @@ tags: [Guide-S, Thallo, Olympos, Muse]
 image: assets/characters/themis-verna.png?v=1790013786001
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T18:03:06.001Z
+updated_at: 2026-09-21T18:04:01.739Z
 age: 
 gender: 
 birthday: 
@@ -25,7 +25,7 @@ summary:
 
 # BACKGROUND
 girl, white skin, 1.4::big breast::,
-2::vivid violet eyes::, cat-like eyes, very long eyelashes, a lot of eyelashes, 1.6::ivory color eyelashes::,
+2::vivid violet eyes::, round eyes, very long eyelashes, a lot of eyelashes, 1.6::ivory color eyelashes::,
 2::ivory color hair base, pale pink baige bottom hair, gradation two-tone hair::, very long wavy hair, 2::asymmetrical bangs, side-swept bangs, braided bangs, partial braid, single side braid starting, thick braid::, braid bangs with olive-green hair_ribbon, -1::fringe, blunt::,
 
 <!-- persona-archive:copy -->
