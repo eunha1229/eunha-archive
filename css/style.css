@@ -78,3 +78,15 @@ button,input,textarea{font:inherit}.app-shell{min-height:100vh;display:grid;grid
 .character-catchphrase{margin-top:22px;margin-bottom:0}
 .character-summary{margin-top:2px}
 @media(max-width:800px){.character-catchphrase{margin-top:18px}.character-summary{margin-top:2px}}
+
+
+/* v0.3.21: bind codename + name and catchphrase + summary into compact groups */
+.detail-name-block{display:flex;flex-direction:column;gap:0;margin-top:14px}
+.detail-name-block .code{margin:0}
+.detail-name-block .detail-name-row{margin-top:-2px}
+.detail-name-block .detail-name-row h1{margin:0;line-height:1.08}
+.detail-tags{margin-top:14px}
+.character-intro{margin-top:22px}
+.character-intro .character-catchphrase{margin:0}
+.character-intro .character-summary{margin-top:1px}
+@media(max-width:800px){.detail-name-block{margin-top:12px}.detail-name-block .detail-name-row{margin-top:-1px}.character-intro{margin-top:18px}}
