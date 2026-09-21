@@ -26,7 +26,7 @@ summary: 그렇다면 저는, 제 영혼을 잃지 않을 수 있나요?
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
 girl, cute,
-4::vivid violet eyes::, very long eyelashes, a lot of eyelashes, weak cat-like impression, 1.4::white color eyelashes, white color eyebrows::,
+2::vivid violet eyes::, very long eyelashes, a lot of eyelashes, weak cat-like impression, 1.4::white color eyelashes, white color eyebrows::,
 pure white hair, 3::right-swept bangs::, very long layered hair, french braid, hair_ribbon, bright but muted blue color ribbon, wavy hair, a lot of hair,
 -2::hime-cut, spiky hair, blunt, fringe, forehead::, white skin, 1.4::big breast::,
 
