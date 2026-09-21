@@ -2,14 +2,14 @@
 name: 은별하
 native_name: 銀별하
 codename: BLANC
-world: MEOMMEO
+world: MeomMeo
 category: OTHER
 slug: meommeo-blanc
 tags: [Guide-A, Helios]
 image: assets/characters/meommeo-blanc.png?v=1790010397395
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T17:06:37.395Z
+updated_at: 2026-09-21T17:16:05.236Z
 age: 23
 gender: Cis F.
 birthday: 
