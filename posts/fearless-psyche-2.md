@@ -5,7 +5,7 @@ codename: KORE
 world: ARCH
 slug: fearless-psyche-2
 tags: [Guide-A, Neutral]
-image: assets/characters/fearless-psyche-2.png?v=1789983508413
+image: assets/characters/fearless-psyche-2.png?v=1789983735432
 updated: 2026-09-21
 age: 26
 gender: Cis F.
@@ -13,8 +13,8 @@ birthday: 09/30
 height: 161.2cm
 nationality: Korea
 partner: SANTA
-catchphrase: 
-summary: 
+catchphrase: FALLEN : UNBLESSED
+summary: 자신의 생명을 떼내어 선사하는 봄의 순풍은 이타적 애정의 증거이다. 코드네임 '코레'. 저주 속에 허덕이는 그녀를 끄집어내는 것은, 당신 하기에 달려 있다.
 ---
 
 # CHARACTER
