@@ -5,14 +5,16 @@ codename: KORE
 world: ARCH
 slug: arch-kore
 tags: [Sentinel-A, Verde]
-image: assets/characters/arch-kore.png?v=1789702847346
-updated: 2026-09-18
+image: assets/characters/arch-kore.png?v=1789983523572
+updated: 2026-09-21
 age: 26
 gender: Cis F.
 birthday: 09/30
 height: 161.2cm
 nationality: Korea
 partner: HUGO
+catchphrase: 
+summary: 
 ---
 
 # CHARACTER
