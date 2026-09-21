@@ -1,6 +1,6 @@
 ---
 name: 사이온지 블랑슈
-native_name: 西園寺 ブランシュ(Blanche)
+native_name: 西園寺 ブランシュ / Blanche Saionji
 codename: LILYA
 world: ARCH
 category: OTHER
@@ -9,7 +9,7 @@ tags: [Sentinel-B, Verde]
 image: assets/characters/arch-lilya.png?v=1789999039283
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:57:19.284Z
+updated_at: 2026-09-21T15:56:05.996Z
 age: 22
 gender: Cis F.
 birthday: 
