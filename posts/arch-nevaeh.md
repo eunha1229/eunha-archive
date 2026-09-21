@@ -5,7 +5,7 @@ codename: NEVAEH
 world: ARCH
 slug: arch-nevaeh
 tags: [Guide-S, Aqua]
-image: assets/characters/arch-nevaeh.png?v=1789983565560
+image: assets/characters/arch-nevaeh.png?v=1789983818960
 updated: 2026-09-21
 age: 26
 gender: Cis F.
@@ -13,8 +13,8 @@ birthday: 09/30
 height: 161.2cm
 nationality: Korea
 partner: HELIOS
-catchphrase: 
-summary: 
+catchphrase: STATUS : LOST
+summary: 낙원은 존재하지 않는다. 세상은 폐허보다 메말랐고, 메마름은 상실을 방증한다. 코드네임 '니베이아'. 그녀의 존재는 낙원의 역설이다.
 ---
 
 # CHARACTER
