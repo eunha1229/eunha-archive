@@ -25,8 +25,8 @@ summary: 생명의 불씨를 틔우고 키우는 것은, 언제나 작은 티끌
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
-girl, short stature, 1::aged down::,
-2::coral red eyes::, tareme, very long eyelashes, a lot of eyelashes, sharp eyes, pale skin, big breast, 0.5::blush::,
+girl, short stature, 1::aged down::, pale skin, big breast, 0.5::blush::,
+2::coral red eyes::, tareme, very long eyelashes, a lot of eyelashes, sharp eyes, 1.6::warm beige color eyelashes::,
 warm beige hair, full bangs, layered long hair, -1::hime-cut, wavy hair, parted bangs::, french braid,
 
 # DEFAULT OUTFIT
