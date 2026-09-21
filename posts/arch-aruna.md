@@ -26,7 +26,7 @@ summary: 끝나지 않는 밤은 없고, 해는 반드시 떠오른다. 코드�
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
 girl,
-sky blue eyes, tsurime, haif-closed eyes, very long eyelashes, a lot of eyelashes,
+sky blue eyes, tsurime, haif-closed eyes, very long eyelashes, a lot of eyelashes, 1.6::pink brown eyelashes::,
 Pink 2::brown:: hair, long hair, french braid, white hair_ribbon,
 white skin, medium_breasts,
 
