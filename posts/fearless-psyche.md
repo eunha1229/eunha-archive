@@ -5,7 +5,7 @@ codename: PSYCHE
 world: Fearless
 slug: fearless-psyche
 tags: [Guide-A]
-image: assets/characters/fearless-psyche.png?v=1789983064375
+image: assets/characters/fearless-psyche.png?v=1789983250190
 updated: 2026-09-21
 age: 26
 gender: Cis F.
