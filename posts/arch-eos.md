@@ -3,14 +3,17 @@ name: 하연우
 native_name: 河緣優
 codename: EOS
 world: ARCH
+category: OTHER
 slug: arch-eos
 tags: [Guide-S, Glacies]
 image: assets/characters/arch-eos.png?v=1789990951555
+gallery: []
 updated: 2026-09-21
+updated_at: 2026-09-21T16:18:51.333Z
 age: 21
 gender: Cis F.
 birthday: 
-height: 157cm
+height: 149cm
 nationality: Korea
 partner: HELIOS
 catchphrase: ITERNAL : AVRORA
