@@ -3,12 +3,13 @@ name: 연해인
 native_name: 延海潾
 codename: MARINE
 world: ARCH
+category: SUB
 slug: arch-marine
 tags: [Guide-S, Aqua]
 image: assets/characters/arch-marine.png?v=1789996154591
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:09:14.591Z
+updated_at: 2026-09-21T13:54:17.451Z
 age: 20
 gender: Cis F.
 birthday: 
