@@ -9,7 +9,7 @@ tags: [Guide-S]
 image: assets/characters/principia-yomotsu.png?v=1790015100232
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T18:25:00.232Z
+updated_at: 2026-09-21T18:56:42.779Z
 age: 25
 gender: Cis F.
 birthday: 
@@ -34,4 +34,6 @@ girl, big breast, white skin, gentle mood,
 
 <!-- persona-archive:copy -->
 # DEFAULT OUTFIT
-navy military uniform jacket, subtle military-style silver trim, restrained silver buttons, navy H-line skirt, short skirt, black stocking, black thighhights, black combat boots,
+navy military uniform jacket, subtle military-style silver trim, restrained silver buttons, 
+navy H-line skirt, short skirt, black stocking, black thighhights, 
+black combat boots,
