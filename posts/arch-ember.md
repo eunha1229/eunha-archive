@@ -3,10 +3,13 @@ name: 주아연
 native_name: 朱娥然
 codename: EMBER
 world: ARCH
+category: OTHER
 slug: arch-ember
 tags: [Guide-S, Pyre]
 image: assets/characters/arch-ember.png?v=1789991163265
+gallery: []
 updated: 2026-09-21
+updated_at: 2026-09-21T19:36:20.446Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -29,6 +32,7 @@ girl, short stature, 1::aged down::, pale skin, big breast, 0.5::blush::,
 2::coral red eyes::, tareme, very long eyelashes, a lot of eyelashes, sharp eyes, 1.6::warm beige color eyelashes::,
 warm beige hair, full bangs, layered long hair, -1::hime-cut, wavy hair, parted bangs::, french braid,
 
+<!-- persona-archive:copy -->
 # DEFAULT OUTFIT
 white military uniform, subtle military-style gold trim, restrained warm gold buttons, black gloves,
 waist gun holster,
