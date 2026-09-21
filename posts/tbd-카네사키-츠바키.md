@@ -5,14 +5,16 @@ codename:
 world: TBD
 slug: tbd-카네사키-츠바키
 tags: []
-image: assets/characters/tbd-카네사키-츠바키.png?v=1789720133917
-updated: 2026-09-18
+image: assets/characters/tbd-카네사키-츠바키.png?v=1789984459481
+updated: 2026-09-21
 age: TBD
 gender: Cis F.
 birthday: 09/30
 height: 161.2cm
 nationality: Japan
 partner: TBD
+catchphrase: 
+summary: 
 ---
 
 # CHARACTER
