@@ -10,7 +10,7 @@ updated: 2026-09-21
 age: TBD
 gender: Cis F.
 birthday: 09/30
-height: 161.2cm
+height: 156cm
 nationality: Japan
 partner: TBD
 catchphrase: 
