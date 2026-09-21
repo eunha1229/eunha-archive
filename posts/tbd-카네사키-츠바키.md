@@ -25,6 +25,6 @@ summary:
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
-girl, cute, 1.2::big breast::,
+girl, cute, 1.2::big breast::, white skin,
 2::golden yellow eyes::, very long eyelashes, a lot of eyelashes, cat-like impression, 1.6::brown color eyelashes::,
 0.2::pink:: 1.4::brown:: hair, 3::right-swept bangs::, very long layered hair, french braid, 2::pony tail::, black hair_ribbon, -2::blunt, fringe, forehead, down hair::,
