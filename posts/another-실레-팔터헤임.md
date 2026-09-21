@@ -9,15 +9,15 @@ tags: [@0, Phatasmagoria]
 image: assets/characters/another-실레-팔터헤임.png?v=1790018677690
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T19:26:38.764Z
+updated_at: 2026-09-21T19:31:53.232Z
 age: 20
 gender: Cis F.
 birthday: 09/30
 height: 161.2cm
 nationality: Germany
 partner: PHANTOM
-catchphrase: 
-summary: 
+catchphrase: Yes, Your Highness.
+summary: 세상에. 심장이, 심장이 뛰고 있어요. 환상이 아닙니다. 망령이 아닙니다. 오로지 생자들만이 이곳에 존재하고 있습니다!
 ---
 
 # CHARACTER
