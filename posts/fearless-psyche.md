@@ -13,6 +13,8 @@ birthday: 09/30
 height: 161.2cm
 nationality: Korea
 partner: IMPERIAL
+catchphrase: FRAGILE SANCTUARY
+summary: 스스로를 부수어 지어 올린 성역. 찢어진 날개, 영혼의 안식.
 ---
 
 # CHARACTER
