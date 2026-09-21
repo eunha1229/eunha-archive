@@ -3,12 +3,13 @@ name: 주은하
 native_name: 周銀河
 codename: KORE
 world: ARCH
+category: MAIN
 slug: arch-kore
 tags: [Sentinel-A, Verde]
 image: assets/characters/arch-kore.png?v=1789983753857
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:43:56.787Z
+updated_at: 2026-09-21T13:53:09.782Z
 age: 26
 gender: Cis F.
 birthday: 09/30
