@@ -58,6 +58,14 @@ button,input,textarea{font:inherit}.app-shell{min-height:100vh;display:grid;grid
 
 /* v0.3.18: catchphrase + short character description */
 .character-catchphrase{margin-top:20px;color:#e2e0ff;font:300 15px/1.7 "Hahmlet",serif;letter-spacing:.01em}
-.character-catchphrase::before{content:"“";color:var(--blue);margin-right:2px}.character-catchphrase::after{content:"”";color:var(--blue);margin-left:2px}
 .character-summary{margin-top:8px;max-width:650px;color:#8992b7;font-size:11px;line-height:1.8;white-space:pre-wrap}
 @media(max-width:800px){.character-catchphrase{margin-top:16px;font-size:14px}.character-summary{font-size:10px}}
+
+/* v0.3.19: character header information hierarchy */
+.detail-title .code{margin-top:14px;margin-bottom:2px}
+.detail-name-row{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.detail-name-row h1{margin:4px 0 0}
+.detail-name-row .native-name{margin-top:0}
+.detail-tags{margin-top:15px}
+.character-catchphrase{margin-top:24px}
+@media(max-width:800px){.detail-name-row{gap:9px}.character-catchphrase{margin-top:20px}}
