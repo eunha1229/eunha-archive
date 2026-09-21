@@ -1,14 +1,14 @@
 ---
-name: 서라
+name: 서라온
 native_name: 徐라온
 codename: HALO
 world: ARCH
 slug: arch-halo
 tags: [Sentinel-A, Pyre]
-image: assets/characters/arch-halo.png?v=1789996816225
+image: assets/characters/arch-halo.png?v=1789996839228
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:20:16.226Z
+updated_at: 2026-09-21T13:20:39.228Z
 age: 20
 gender: Cis F.
 birthday: 
