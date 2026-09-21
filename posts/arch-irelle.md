@@ -6,8 +6,9 @@ world: ARCH
 slug: arch-irelle
 tags: [Guide-S, Verde, R.S.T.]
 image: assets/characters/arch-irelle.png?v=1789995946964
+gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:05:46.964Z
+updated_at: 2026-09-21T13:13:50.256Z
 age: 
 gender: Cis F.
 birthday: 
@@ -28,7 +29,7 @@ summary: 쓰러지지 않기 위해 굳건히 뿌리내려야 하고, 부러지�
 # CHARACTER PROMPT
 girl, 
 2::vivid coral red eyes::, very long eyelashes, a lot of eyelashes, sharp eyes, 2::pale lavender color eyelashes::, 
-2::pale lavender hair::, 2::loose half-up hairstyle::, red hair_ribbon on the back of the head, trident bangs, hair between eyes, long side bangs, side locks, very long 0.5::layered:: hair, -1::hime-cut, curvy hair, bun, braid, pony tail, forehead::, 
+2::pale lavender hair::, 2::loose half-up hairstyle::, red hair_ribbon on the back of the head, hair between eyes, long side bangs, side locks, very long 0.5::layered:: hair, -1::hime-cut, curvy hair, bun, braid, pony tail, forehead::, 
 big breast, white skin, expressionless,
 
 <!-- persona-archive:copy -->
