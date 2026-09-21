@@ -9,7 +9,7 @@ tags: [@YYG, The Artist, Goddaughter]
 image: assets/characters/another-바네사-아우로라.png?v=1789985640970
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T19:18:57.544Z
+updated_at: 2026-09-21T19:24:57.660Z
 age: 20
 gender: Cis F.
 birthday: 09/30
@@ -17,7 +17,7 @@ height: 156cm
 nationality: Italy
 partner: Lorenzo de Monteluce
 catchphrase: BLUE WINGS PSYCHE
-summary: 그렇다면 저는, 제 영혼을 잃지 않을 수 있나요?
+summary: 영혼의 날갯짓. 폐허에 무지개를 피우는 창조주, 백지의 여왕. 별이 대지에 입 맞추는 곳, 너는 나의 북극성이란다.
 ---
 
 # CHARACTER
