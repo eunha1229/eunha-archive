@@ -69,3 +69,12 @@ button,input,textarea{font:inherit}.app-shell{min-height:100vh;display:grid;grid
 .detail-tags{margin-top:15px}
 .character-catchphrase{margin-top:24px}
 @media(max-width:800px){.detail-name-row{gap:9px}.character-catchphrase{margin-top:20px}}
+
+/* v0.3.20: tighten character header vertical rhythm */
+.detail-title .code{margin-top:14px;margin-bottom:0}
+.detail-name-row{margin-top:2px}
+.detail-name-row h1{margin:0}
+.detail-tags{margin-top:14px}
+.character-catchphrase{margin-top:22px;margin-bottom:0}
+.character-summary{margin-top:2px}
+@media(max-width:800px){.character-catchphrase{margin-top:18px}.character-summary{margin-top:2px}}
