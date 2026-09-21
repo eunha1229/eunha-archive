@@ -1,7 +1,7 @@
 ---
 name: 이가라시 린
 native_name: 五十嵐 凛
-codename: MIKO
+codename: 巫女(MIKO)
 world: MeomMeo
 category: SUB
 slug: meommeo-miko
@@ -9,7 +9,7 @@ tags: [Guide-S, Eclipse]
 image: assets/characters/meommeo-miko.png?v=1790009785506
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T17:15:53.835Z
+updated_at: 2026-09-21T19:27:20.499Z
 age: 23?
 gender: Cis F.
 birthday: 
