@@ -1,6 +1,6 @@
 ---
-name: 실레 팔터헤임
-native_name: Sile Falterheim
+name: 성하연
+native_name: 星河延
 codename: 
 world: Another
 category: SUB
@@ -9,7 +9,7 @@ tags: [@0, Phatasmagoria]
 image: assets/characters/another-실레-팔터헤임.png?v=1790018677690
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T19:24:37.691Z
+updated_at: 2026-09-21T19:26:38.764Z
 age: 20
 gender: Cis F.
 birthday: 09/30
