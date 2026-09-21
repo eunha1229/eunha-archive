@@ -5,14 +5,16 @@ codename: KORE
 world: ARCH
 slug: fearless-psyche-2
 tags: [Guide-A, Neutral]
-image: assets/characters/fearless-psyche-2.png?v=1789702440206
-updated: 2026-09-18
+image: assets/characters/fearless-psyche-2.png?v=1789983508413
+updated: 2026-09-21
 age: 26
 gender: Cis F.
 birthday: 09/30
 height: 161.2cm
 nationality: Korea
 partner: SANTA
+catchphrase: 
+summary: 
 ---
 
 # CHARACTER
