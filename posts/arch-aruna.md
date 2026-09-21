@@ -28,7 +28,7 @@ summary: 끝나지 않는 밤은 없고, 해는 반드시 떠오른다. 코드�
 girl,
 sky blue eyes, tsurime, haif-closed eyes, very long eyelashes, a lot of eyelashes,
 Pink 2::brown:: hair, long hair, french braid, white hair_ribbon,
-light rosy skin, medium_breasts,
+white skin, medium_breasts,
 
 <!-- persona-archive:copy -->
 # DEFAULT OUTFIT
