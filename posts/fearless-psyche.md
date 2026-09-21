@@ -3,12 +3,13 @@ name: 주은하
 native_name: 周銀河
 codename: PSYCHE
 world: Fearless
+category: MAIN
 slug: fearless-psyche
 tags: [Guide-A]
 image: assets/characters/fearless-psyche.png?v=1789983250190
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:45:34.934Z
+updated_at: 2026-09-21T13:52:48.009Z
 age: 26
 gender: Cis F.
 birthday: 09/30
