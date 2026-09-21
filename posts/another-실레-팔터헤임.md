@@ -3,13 +3,13 @@ name: 실레 팔터헤임
 native_name: Sile Falterheim
 codename: 
 world: Another
-category: OTHER
+category: SUB
 slug: another-실레-팔터헤임
 tags: [@0, Phatasmagoria]
-image: assets/characters/another-실레-팔터헤임.png?v=1790018654488
+image: assets/characters/another-실레-팔터헤임.png?v=1790018677690
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T19:24:14.488Z
+updated_at: 2026-09-21T19:24:37.691Z
 age: 20
 gender: Cis F.
 birthday: 09/30
