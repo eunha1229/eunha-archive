@@ -5,14 +5,16 @@ codename: NEVAEH
 world: ARCH
 slug: arch-nevaeh-2
 tags: [Sentinel-S, Aqua]
-image: assets/characters/arch-nevaeh-2.png?v=1789719646496
-updated: 2026-09-18
+image: assets/characters/arch-nevaeh-2.png?v=1789983869580
+updated: 2026-09-21
 age: 26
 gender: Cis F.
 birthday: 09/30
 height: 161.2cm
 nationality: Korea
 partner: JUSTICE
+catchphrase: AVALON : THE OTHER SHORE
+summary: 그대. 생을 입은 자여, 명을 짊어진 자여. 창천으로 추락할 텐가, 심해로 비상할 텐가. 코드네임 '니베이아'. 역전된 낙원에는, 그 누구도 발 붙이지 못할지니.
 ---
 
 # CHARACTER
