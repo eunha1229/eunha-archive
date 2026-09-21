@@ -2,14 +2,14 @@
 name: 달리아 에버하트
 native_name: Dahlia Everhart
 codename: FLOS
-world: MEOMMEO
+world: MeomMeo
 category: SUB
 slug: meommeo-flos
 tags: [Guide-S, Eclipse]
 image: assets/characters/meommeo-flos.png?v=1790009251193
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T16:47:31.193Z
+updated_at: 2026-09-21T17:15:41.354Z
 age: 24
 gender: Cis F.
 birthday: 
