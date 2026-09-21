@@ -2,14 +2,14 @@
 name: 비비안 메이 호손
 native_name: Vivian May. Hawthorne
 codename: 
-world: MEOMMEO
+world: MeomMeo
 category: SUB
 slug: meommeo-비비안-메이-호손
 tags: [Normal]
 image: assets/characters/meommeo-비비안-메이-호손.png?v=1790010891453
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T17:14:51.453Z
+updated_at: 2026-09-21T17:16:18.488Z
 age: 22
 gender: Cis F.
 birthday: 
