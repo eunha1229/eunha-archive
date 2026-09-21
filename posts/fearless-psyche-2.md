@@ -6,7 +6,9 @@ world: ARCH
 slug: fearless-psyche-2
 tags: [Guide-A, Neutral]
 image: assets/characters/fearless-psyche-2.png?v=1789983735432
+gallery: []
 updated: 2026-09-21
+updated_at: 2026-09-21T13:43:46.156Z
 age: 26
 gender: Cis F.
 birthday: 09/30
