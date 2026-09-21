@@ -5,14 +5,16 @@ codename: NEVAEH
 world: ARCH
 slug: arch-nevaeh
 tags: [Guide-S, Aqua]
-image: assets/characters/arch-nevaeh.png?v=1789719515758
-updated: 2026-09-18
+image: assets/characters/arch-nevaeh.png?v=1789983565560
+updated: 2026-09-21
 age: 26
 gender: Cis F.
 birthday: 09/30
 height: 161.2cm
 nationality: Korea
 partner: HELIOS
+catchphrase: 
+summary: 
 ---
 
 # CHARACTER
