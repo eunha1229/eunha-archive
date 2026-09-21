@@ -1,6 +1,6 @@
 ---
 name: Avalon-0001
-native_name: Null
+native_name: Unknown
 codename: NEVAEH
 world: ARCH
 category: SUB
@@ -9,7 +9,7 @@ tags: [Guide-S, Sentinel-S, Aqua]
 image: assets/characters/arch-nevaeh-3.png?v=1789984061722
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:53:48.008Z
+updated_at: 2026-09-21T14:01:21.646Z
 age: ??
 gender: ??
 birthday: ??
