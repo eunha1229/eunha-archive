@@ -3,12 +3,13 @@ name: 주은하
 native_name: 周銀河
 codename: KORE
 world: ARCH
+category: MAIN
 slug: fearless-psyche-2
 tags: [Guide-A, Neutral]
 image: assets/characters/fearless-psyche-2.png?v=1789983735432
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:43:46.156Z
+updated_at: 2026-09-21T13:52:59.968Z
 age: 26
 gender: Cis F.
 birthday: 09/30
