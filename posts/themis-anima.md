@@ -5,11 +5,11 @@ codename: ANIMA
 world: THEMIS
 category: MAIN
 slug: themis-anima
-tags: [Guide-S, Sentinel-S]
+tags: [Guide-S, Sentinel-S, Psyche, Tartaros, The Defectors]
 image: assets/characters/themis-anima.png?v=1790008839656
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T16:56:49.995Z
+updated_at: 2026-09-21T17:28:05.172Z
 age: ??
 gender: Cis F.
 birthday: 
