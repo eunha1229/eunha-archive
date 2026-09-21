@@ -3,12 +3,13 @@ name: -
 native_name: Null
 codename: I.A.
 world: ARCH
+category: OTHER
 slug: arch-ia
 tags: [Sentine-B, Aero]
 image: assets/characters/arch-ia.png?v=1789997527794
 gallery: []
 updated: 2026-09-21
-updated_at: 2026-09-21T13:32:18.388Z
+updated_at: 2026-09-21T14:01:06.164Z
 age: 약 3년 전 제조된 것으로 추정
 gender: 정체성 확립 전
 birthday: 
