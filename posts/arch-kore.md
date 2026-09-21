@@ -5,7 +5,7 @@ codename: KORE
 world: ARCH
 slug: arch-kore
 tags: [Sentinel-A, Verde]
-image: assets/characters/arch-kore.png?v=1789983531592
+image: assets/characters/arch-kore.png?v=1789983753857
 updated: 2026-09-21
 age: 26
 gender: Cis F.
