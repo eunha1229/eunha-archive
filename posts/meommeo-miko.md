@@ -8,8 +8,8 @@ slug: meommeo-miko
 tags: [Guide-S, Eclipse]
 image: assets/characters/meommeo-miko.png?v=1790009785506
 gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T19:27:20.499Z
+updated: 2026-09-22
+updated_at: 2026-09-22T16:14:23.842Z
 age: 23?
 gender: Cis F.
 birthday: 
@@ -31,7 +31,7 @@ summary: 자애를 위한 숭배, 자애를 위한 탄생. 이클립스의 희�
 girl, ::aged down::, gentle mood,
 2::vivid ocean blue eyes::, big eyes, tareme, very long eyelashes, a lot of eyelashes, 1.6::deep brown color eyelashes::,
 deep brown hair, very long wavy hair, a lot of hair, half-up hair with french braid, tiny white hair_ribbon, 1.4::miko hair::,
-1.4::trident bangs::, 0.5::fringe::, 1.4::side lock hair::,
+1.4::full bangs, hair between eyes::, 0.5::fringe::, 1.4::side lock hair::,
 big breast, white skin,
 
 <!-- persona-archive:copy -->
