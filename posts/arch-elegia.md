@@ -3,10 +3,13 @@ name: 키아라 실베스트리
 native_name: Chiara Silvestri
 codename: ELEGIA
 world: ARCH
+category: OTHER
 slug: arch-elegia
 tags: [Guide-S, Verde]
 image: assets/characters/arch-elegia.png?v=1789994006458
-updated: 2026-09-21
+gallery: [assets/characters/arch-elegia-gallery-1790100006009-1.png?v=1790100006009, assets/characters/arch-elegia-gallery-1790100006009-2.png?v=1790100006009]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:00:12.542Z
 age: 28
 gender: Cis F.
 birthday: 11/07
