@@ -8,8 +8,8 @@ slug: another-anima
 tags: []
 image: assets/characters/another-anima.png?v=1790016704747
 gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T18:51:44.747Z
+updated: 2026-09-22
+updated_at: 2026-09-22T06:35:26.236Z
 age: ??
 gender: Cis F.
 birthday: 
@@ -38,7 +38,7 @@ bright skin, big breast,
 drop shape opal earrings, tiny earrings,
 black lace veil, long black wedding veil, luxury lace details, 2::veil covered head::,
 black neck choker, opal point,
-black off-shoulder dress, black see-through lace point covered chest, luxury lace details, mermaid line long dress, glitter point on the bottom dress, slit skirt,
+black off-shoulder dress, black see-through lace point covered chest, luxury lace details, sleeveless, mermaid line long dress, glitter point on the bottom dress, slit skirt,
 black strap heels, opal point,
 
 <!-- persona-archive:copy -->
