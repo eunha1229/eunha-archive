@@ -7,9 +7,9 @@ category: SUB
 slug: fearless-psyche
 tags: [Guide-A]
 image: assets/characters/fearless-psyche.png?v=1789983250190
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T13:54:39.268Z
+gallery: [assets/characters/fearless-psyche-gallery-1790062559847-1.png?v=1790062559847, assets/characters/fearless-psyche-gallery-1790062559847-2.png?v=1790062559847]
+updated: 2026-09-22
+updated_at: 2026-09-22T07:36:08.942Z
 age: 26
 gender: Cis F.
 birthday: 09/30
