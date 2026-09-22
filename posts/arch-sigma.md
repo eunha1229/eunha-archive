@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-sigma
 tags: [Guide-S, Neutral]
 image: assets/characters/arch-sigma.png?v=1789999230485
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T14:00:30.485Z
+gallery: [assets/characters/arch-sigma-gallery-1790100245116-1.png?v=1790100245116, assets/characters/arch-sigma-gallery-1790100245116-2.png?v=1790100245116]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:04:11.702Z
 age: 27
 gender: Cis M.
 birthday: 
