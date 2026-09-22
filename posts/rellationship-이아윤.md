@@ -7,9 +7,9 @@ category: OTHER
 slug: rellationship-이아윤
 tags: []
 image: assets/characters/rellationship-이아윤.png?v=1790007511068
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T16:18:31.068Z
+gallery: [assets/characters/rellationship-이아윤-gallery-1790100659518-1.png?v=1790100659518]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:11:02.247Z
 age: 
 gender: Cis F.
 birthday: 
