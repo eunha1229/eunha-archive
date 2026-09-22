@@ -8,8 +8,8 @@ slug: themis-anima
 tags: [Guide-S, Sentinel-S, Psyche, Tartaros, The Defectors]
 image: assets/characters/themis-anima.png?v=1790008839656
 gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T17:28:05.172Z
+updated: 2026-09-22
+updated_at: 2026-09-22T06:34:47.717Z
 age: ??
 gender: Cis F.
 birthday: 
@@ -39,7 +39,7 @@ drop shape opal earrings, tiny earrings,
 black lace veil, long black wedding veil, luxury lace details, 2::veil covered head::,
 
 black neck choker, opal point,
-black off-shoulder dress, black see-through lace point covered chest, luxury lace details, mermaid line long dress, glitter point on the bottom dress, slit skirt,
+black off-shoulder dress, black see-through lace point covered chest, sleeveless, luxury lace details, mermaid line long dress, glitter point on the bottom dress, slit skirt,
 black strap heels, opal point,
 
 <!-- persona-archive:copy -->
