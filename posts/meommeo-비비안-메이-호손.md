@@ -7,9 +7,9 @@ category: SUB
 slug: meommeo-비비안-메이-호손
 tags: [Normal]
 image: assets/characters/meommeo-비비안-메이-호손.png?v=1790010891453
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T17:16:18.488Z
+gallery: [assets/characters/meommeo-비비안-메이-호손-gallery-1790100577356-1.png?v=1790100577356]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:09:40.513Z
 age: 22
 gender: Cis F.
 birthday: 
