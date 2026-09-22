@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-ember
 tags: [Guide-S, Pyre]
 image: assets/characters/arch-ember.png?v=1789991163265
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T19:36:20.446Z
+gallery: [assets/characters/arch-ember-gallery-1790099799289-1.png?v=1790099799289, assets/characters/arch-ember-gallery-1790099799289-2.png?v=1790099799289]
+updated: 2026-09-22
+updated_at: 2026-09-22T17:56:45.819Z
 age: 21
 gender: Cis F.
 birthday: 
