@@ -8,8 +8,8 @@ slug: meommeo-blanc
 tags: [Guide-A, Helios]
 image: assets/characters/meommeo-blanc.png?v=1790010397395
 gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T17:16:05.236Z
+updated: 2026-09-22
+updated_at: 2026-09-22T16:17:24.957Z
 age: 23
 gender: Cis F.
 birthday: 
@@ -30,7 +30,7 @@ summary:
 # CHARACTER PROMPT
 girl, gentle mood, 
 2::pure white eyes::, very long eyelashes, a lot of eyelashes, tareme,
-dark green hair, very long staright hair, a lot of hair, asymmetrical bangs, face framing hair, side lock hair,
+dark green hair, very long straight hair, a lot of hair, asymmetrical bangs, face framing hair, side lock hair,
 white skin, 1.2::big breast::,
 
 <!-- persona-archive:copy -->
