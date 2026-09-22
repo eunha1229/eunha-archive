@@ -7,9 +7,9 @@ category: SUB
 slug: themis-nocturne
 tags: [Sentinel-S, Ratri, Xenos (Veda), Phalanx]
 image: assets/characters/themis-nocturne.png?v=1790012570363
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T17:42:50.364Z
+gallery: [assets/characters/themis-nocturne-gallery-1790100745218-1.png?v=1790100745218]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:12:29.608Z
 age: 24
 gender: Cis F.
 birthday: 
