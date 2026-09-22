@@ -7,9 +7,9 @@ category: OTHER
 slug: another-anima
 tags: []
 image: assets/characters/another-anima.png?v=1790016704747
-gallery: []
+gallery: [assets/characters/another-anima-gallery-1790100424043-1.png?v=1790100424043, assets/characters/another-anima-gallery-1790100424043-2.png?v=1790100424043]
 updated: 2026-09-22
-updated_at: 2026-09-22T06:35:26.236Z
+updated_at: 2026-09-22T18:07:12.220Z
 age: ??
 gender: Cis F.
 birthday: 
