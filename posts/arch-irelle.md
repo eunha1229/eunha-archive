@@ -3,12 +3,13 @@ name: 류서린
 native_name: 柳瑞潾
 codename: IRELLE
 world: ARCH
+category: OTHER
 slug: arch-irelle
 tags: [Guide-S, Verde, R.S.T.]
 image: assets/characters/arch-irelle.png?v=1789995946964
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T13:13:50.256Z
+gallery: [assets/characters/arch-irelle-gallery-1790100076842-1.png?v=1790100076842, assets/characters/arch-irelle-gallery-1790100076842-2.png?v=1790100076842]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:01:23.219Z
 age: 
 gender: Cis F.
 birthday: 
