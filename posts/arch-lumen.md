@@ -3,10 +3,13 @@ name: 유혜린
 native_name: 柳彗潾
 codename: LUMEN
 world: ARCH
+category: OTHER
 slug: arch-lumen
 tags: [Sentinel-A, Aero]
 image: assets/characters/arch-lumen.png?v=1789993249933
-updated: 2026-09-21
+gallery: [assets/characters/arch-lumen-gallery-1790099972695-1.png?v=1790099972695, assets/characters/arch-lumen-gallery-1790099972695-2.png?v=1790099972695]
+updated: 2026-09-22
+updated_at: 2026-09-22T17:59:39.513Z
 age: 24
 gender: Cis F.
 birthday: 
