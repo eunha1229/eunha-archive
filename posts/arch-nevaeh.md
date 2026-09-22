@@ -7,9 +7,9 @@ category: SUB
 slug: arch-nevaeh
 tags: [Guide-S, Aqua]
 image: assets/characters/arch-nevaeh.png?v=1789983818960
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T13:53:26.682Z
+gallery: [assets/characters/arch-nevaeh-gallery-1790099614453-1.png?v=1790099614453, assets/characters/arch-nevaeh-gallery-1790099614453-2.png?v=1790099614453]
+updated: 2026-09-22
+updated_at: 2026-09-22T17:53:41.829Z
 age: 26
 gender: Cis F.
 birthday: 09/30
