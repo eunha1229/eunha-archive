@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-cor
 tags: [Sentinel, Glacies]
 image: assets/characters/arch-cor.png?v=1790006560120
-gallery: []
+gallery: [assets/characters/arch-cor-gallery-1790100358336-1.png?v=1790100358336, assets/characters/arch-cor-gallery-1790100358336-2.png?v=1790100358336]
 updated: 2026-09-22
-updated_at: 2026-09-22T17:39:50.050Z
+updated_at: 2026-09-22T18:06:05.052Z
 age: 27
 gender: Cis F.
 birthday: 
