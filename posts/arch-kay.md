@@ -8,8 +8,8 @@ slug: arch-kay
 tags: [Sentinel-S, Pyre]
 image: assets/characters/arch-kay.png?v=1790015803792
 gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T19:34:44.994Z
+updated: 2026-09-22
+updated_at: 2026-09-22T17:46:35.248Z
 age: 34
 gender: Cis F.
 birthday: 
@@ -28,7 +28,7 @@ summary:
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
-girl, mature female, white skin, big breast, 1.5::aged up::, expressionless,
+girl, mature female, white skin, 1.4::big breast::, 1.5::aged up::, expressionless,
 pure black eyes, narrow eyes, sharp eyes, smaller eyes, expressionless, cold mood,
 pure black hair, ::forehead::, 2::wolf cut::,
 
