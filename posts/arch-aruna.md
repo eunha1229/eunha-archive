@@ -3,10 +3,13 @@ name: 윤해원
 native_name: 尹解媛
 codename: ARUNA
 world: ARCH
+category: OTHER
 slug: arch-aruna
 tags: [Guide-S, Aero, R.S.T.]
 image: assets/characters/arch-aruna.png?v=1789990755167
-updated: 2026-09-21
+gallery: [assets/characters/arch-aruna-gallery-1790099722180-1.png?v=1790099722180, assets/characters/arch-aruna-gallery-1790099722180-2.png?v=1790099722180]
+updated: 2026-09-22
+updated_at: 2026-09-22T17:55:27.905Z
 age: 
 gender: 
 birthday: 
