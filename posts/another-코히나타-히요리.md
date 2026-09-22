@@ -8,8 +8,8 @@ slug: another-코히나타-히요리
 tags: [@sugar, Tsukinai]
 image: assets/characters/another-코히나타-히요리.png?v=1790016270082
 gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T18:44:30.082Z
+updated: 2026-09-22
+updated_at: 2026-09-22T16:28:36.663Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -36,6 +36,7 @@ girl, pale skin, small breast, slender, frecckles,
 # DEFAULT OUTFIT
 round shape glasses, big lenses,
 layered clothes: white turtleneck knit sweater, sleeveless brown dress, brown thin waist belt,
+white knit socks, brown mary jane,
 
 <!-- persona-archive:copy -->
 # DOJIKKO
