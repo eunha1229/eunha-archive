@@ -8,8 +8,8 @@ slug: rellationship-axis
 tags: []
 image: assets/characters/rellationship-axis.png?v=1790008314866
 gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T16:31:54.866Z
+updated: 2026-09-22
+updated_at: 2026-09-22T16:01:34.108Z
 age: 
 gender: Cis F.
 birthday: 
@@ -30,7 +30,7 @@ summary:
 # CHARACTER PROMPT
 girl, white skin, big breast, confident, smug,
 2::vivid red eyes, yellow pupils::, tsurime, cat-like eyes, very long eyelashes, a lot of eyelashes, 1.7::blue color eyelashes::,
-0.2::muted:: blue hair, very long straight hair, half-up hair, high half tail, hair between eyes, long side lock hair, 1.7::ahoge::, -1::fringe, blunt::,
+0.2::muted:: blue hair, very long straight hair, half-up pony tail, high half tail, hair between eyes, long side lock hair, 1.7::ahoge::, -1::fringe, blunt::,
 
 <!-- persona-archive:copy -->
 # DEFAULT OUTFIT
