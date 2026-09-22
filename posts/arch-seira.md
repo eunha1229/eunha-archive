@@ -3,10 +3,13 @@ name: 연새람
 native_name: 演새람
 codename: SEIRA
 world: ARCH
+category: OTHER
 slug: arch-seira
 tags: [Sentinel-A, Aero]
 image: assets/characters/arch-seira.png?v=1789995099492
-updated: 2026-09-21
+gallery: [assets/characters/arch-seira-gallery-1790100041949-1.png?v=1790100041949, assets/characters/arch-seira-gallery-1790100041949-2.png?v=1790100041949]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:00:48.587Z
 age: 21
 gender: Cis F.
 birthday: 
