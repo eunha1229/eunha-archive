@@ -8,8 +8,8 @@ slug: arch-cor
 tags: [Sentinel, Glacies]
 image: assets/characters/arch-cor.png?v=1790006560120
 gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T16:02:40.120Z
+updated: 2026-09-22
+updated_at: 2026-09-22T17:39:50.050Z
 age: 27
 gender: Cis F.
 birthday: 
@@ -42,5 +42,5 @@ pale skin, 1.5::big breast::,
 # DEFAULT OUTFIT
 1::single deep-red tassel earring::,
 black military uniform, subtle military-style gold trim, restrained warm gold buttons,
-black military pants, 
+black military breeches, baggy pants tucked into boots,
 black combat boots,
