@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-kay
 tags: [Sentinel-S, Pyre]
 image: assets/characters/arch-kay.png?v=1790015803792
-gallery: []
+gallery: [assets/characters/arch-kay-gallery-1790100383571-1.png?v=1790100383571]
 updated: 2026-09-22
-updated_at: 2026-09-22T17:46:35.248Z
+updated_at: 2026-09-22T18:06:26.747Z
 age: 34
 gender: Cis F.
 birthday: 
