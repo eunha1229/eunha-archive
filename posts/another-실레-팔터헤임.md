@@ -7,9 +7,9 @@ category: SUB
 slug: another-실레-팔터헤임
 tags: [@0, Phatasmagoria]
 image: assets/characters/another-실레-팔터헤임.png?v=1790018677690
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T19:31:53.232Z
+gallery: [assets/characters/another-실레-팔터헤임-gallery-1790100485266-1.png?v=1790100485266]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:08:09.209Z
 age: 20
 gender: Cis F.
 birthday: 09/30
