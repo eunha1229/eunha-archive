@@ -7,9 +7,9 @@ category: OTHER
 slug: themis-via
 tags: [Sentinel-S, Ògún, Xenos (Yoruba), Zero]
 image: assets/characters/themis-via.png?v=1790013248796
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T17:54:08.796Z
+gallery: [assets/characters/themis-via-gallery-1790100766970-1.png?v=1790100766970, assets/characters/themis-via-gallery-1790100766970-2.png?v=1790100766970]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:12:53.868Z
 age: 26
 gender: Cis F.
 birthday: 
