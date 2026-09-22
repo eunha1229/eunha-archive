@@ -7,9 +7,9 @@ category: OTHER
 slug: principia-yomotsu
 tags: [Guide-S]
 image: assets/characters/principia-yomotsu.png?v=1790015100232
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T18:56:42.779Z
+gallery: [assets/characters/principia-yomotsu-gallery-1790100594336-1.png?v=1790100594336]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:09:57.380Z
 age: 25
 gender: Cis F.
 birthday: 
