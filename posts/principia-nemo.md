@@ -7,9 +7,9 @@ category: OTHER
 slug: principia-nemo
 tags: [Guide-S]
 image: assets/characters/principia-nemo.png?v=1790017689612
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T19:08:09.612Z
+gallery: [assets/characters/principia-nemo-gallery-1790100610816-1.png?v=1790100610816]
+updated: 2026-09-22
+updated_at: 2026-09-22T18:10:14.651Z
 age: 24
 gender: Cis F.
 birthday: 
