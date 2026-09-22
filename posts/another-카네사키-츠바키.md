@@ -7,9 +7,9 @@ category: OTHER
 slug: another-카네사키-츠바키
 tags: [Seigetsu High School, Baseball Team Manager]
 image: assets/characters/another-카네사키-츠바키.png?v=1790016889728
-gallery: []
+gallery: [assets/characters/another-카네사키-츠바키-gallery-1790100460398-1.png?v=1790100460398]
 updated: 2026-09-22
-updated_at: 2026-09-22T16:32:59.999Z
+updated_at: 2026-09-22T18:07:43.842Z
 age: 16
 gender: Cis F.
 birthday: 09/30
