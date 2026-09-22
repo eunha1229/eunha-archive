@@ -3,10 +3,13 @@ name: 홍예서
 native_name: 洪霓曙
 codename: NOVA
 world: ARCH
+category: OTHER
 slug: arch-nova
 tags: [Sentinel-S, Fulmen]
 image: assets/characters/arch-nova.png?v=1789991919823
-updated: 2026-09-21
+gallery: [assets/characters/arch-nova-gallery-1790099846872-1.png?v=1790099846872, assets/characters/arch-nova-gallery-1790099846872-2.png?v=1790099846872]
+updated: 2026-09-22
+updated_at: 2026-09-22T17:57:34.427Z
 age: 24
 gender: Cis F.
 birthday: 
