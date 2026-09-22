@@ -7,9 +7,9 @@ category: MAIN
 slug: fearless-psyche-2
 tags: [Guide-A, Neutral]
 image: assets/characters/fearless-psyche-2.png?v=1789983735432
-gallery: []
-updated: 2026-09-21
-updated_at: 2026-09-21T13:52:59.968Z
+gallery: [assets/characters/fearless-psyche-2-gallery-1790099542601-1.png?v=1790099542601, assets/characters/fearless-psyche-2-gallery-1790099542601-2.png?v=1790099542601]
+updated: 2026-09-22
+updated_at: 2026-09-22T17:52:27.981Z
 age: 26
 gender: Cis F.
 birthday: 09/30
