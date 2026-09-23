@@ -9,7 +9,7 @@ tags: [Guide-S, Sentinel-S, Psyche, Tartaros, The Defectors]
 image: assets/characters/themis-anima.png?v=1790008839656
 gallery: [assets/characters/themis-anima-gallery-1790100702650-1.png?v=1790100702650, assets/characters/themis-anima-gallery-1790139590493-1.png?v=1790139590493, assets/characters/themis-anima-gallery-1790139590493-2.png?v=1790139590493, assets/characters/themis-anima-gallery-1790139590493-3.png?v=1790139590493]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:00:01.492Z
+updated_at: 2026-09-23T06:04:34.004Z
 age: ??
 gender: Cis F.
 birthday: 
@@ -21,7 +21,7 @@ summary:
 ---
 
 # CHARACTER
-
+프시케─타르타로스 계보의 센티넬-가이드 이중각성자.
 
 # BACKGROUND
 
