@@ -9,7 +9,7 @@ tags: [@YYG, The Artist, Goddaughter]
 image: assets/characters/another-바네사-아우로라.png?v=1789985640970
 gallery: [assets/characters/another-바네사-아우로라-gallery-1790099695711-1.png?v=1790099695711, assets/characters/another-바네사-아우로라-gallery-1790131220918-1.png?v=1790131220918, assets/characters/another-바네사-아우로라-gallery-1790131220918-2.png?v=1790131220918]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:33:05.686Z
+updated_at: 2026-09-23T10:15:17.902Z
 age: 20
 gender: Cis F.
 birthday: 09/30
@@ -26,6 +26,10 @@ summary: 영혼의 날갯짓. 폐허에 무지개를 피우는 창조주, 백지
 
 # THE ARTIST
 그림에 천부적인 재능을 가지고 있다. 주 종목은 유화 물감을 이용한 추상 풍경화이지만, 다른 도구나 화풍을 다루는 수준도 뛰어나다.
+
+# PAIR
+- 로렌조 데 몬텔루체: 2026.05.09~ [Main]
+- 실비오 살바토레: 2026.06.08~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
