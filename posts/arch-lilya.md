@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-lilya
 tags: [Sentinel-B, Verde]
 image: assets/characters/arch-lilya.png?v=1789999039283
-gallery: [assets/characters/arch-lilya-gallery-1790100218327-1.png?v=1790100218327, assets/characters/arch-lilya-gallery-1790100218327-2.png?v=1790100218327]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:03:44.393Z
+gallery: [assets/characters/arch-lilya-gallery-1790100218327-1.png?v=1790100218327, assets/characters/arch-lilya-gallery-1790100218327-2.png?v=1790100218327, assets/characters/arch-lilya-gallery-1790134435240-1.png?v=1790134435240]
+updated: 2026-09-23
+updated_at: 2026-09-23T03:33:58.938Z
 age: 22
 gender: Cis F.
 birthday: 
