@@ -9,7 +9,7 @@ tags: [Guide-A]
 image: assets/characters/fearless-psyche.png?v=1789983250190
 gallery: [assets/characters/fearless-psyche-gallery-1790099488150-1.png?v=1790099488150, assets/characters/fearless-psyche-gallery-1790130975660-1.png?v=1790130975660]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:20:47.209Z
+updated_at: 2026-09-23T10:07:04.869Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -25,6 +25,12 @@ summary: 스스로를 부수어 지어 올린 성역. 찢어진 날개, 영혼�
 
 # ABILITY
 접촉 가이딩 외에도 광범위 방사 가이딩에 특화. 가이딩은 라벤더와 튤립 같은 봄꽃의 향취가 난다.
+
+<!-- persona-archive:copy -->
+# PAIR
+『Fearless』
+- 채플린: 2025.12.19~ 
+- 임페리얼:2025.12.24~ [Main]
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
