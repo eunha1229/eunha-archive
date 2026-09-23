@@ -7,9 +7,9 @@ category: OTHER
 slug: themis-verna
 tags: [Guide-S, Thallo, Olympos, Muse]
 image: assets/characters/themis-verna.png?v=1790013786001
-gallery: [assets/characters/themis-verna-gallery-1790100796480-1.png?v=1790100796480, assets/characters/themis-verna-gallery-1790137245637-1.png?v=1790137245637]
+gallery: [assets/characters/themis-verna-gallery-1790100796480-1.png?v=1790100796480, assets/characters/themis-verna-gallery-1790139290816-1.png?v=1790139290816, assets/characters/themis-verna-gallery-1790139290816-2.png?v=1790139290816]
 updated: 2026-09-23
-updated_at: 2026-09-23T04:20:49.114Z
+updated_at: 2026-09-23T04:54:59.117Z
 age: 
 gender: 
 birthday: 
