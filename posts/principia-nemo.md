@@ -8,8 +8,8 @@ slug: principia-nemo
 tags: [Guide-S]
 image: assets/characters/principia-nemo.png?v=1790017689612
 gallery: [assets/characters/principia-nemo-gallery-1790100610816-1.png?v=1790100610816]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:10:14.651Z
+updated: 2026-09-23
+updated_at: 2026-09-23T10:57:23.872Z
 age: 24
 gender: Cis F.
 birthday: 
@@ -23,8 +23,8 @@ summary:
 # CHARACTER
 
 
-# BACKGROUND
-
+# PAIR
+2026.09.11~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
