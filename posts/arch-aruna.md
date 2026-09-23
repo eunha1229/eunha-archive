@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-aruna
 tags: [Guide-S, Aero, R.S.T.]
 image: assets/characters/arch-aruna.png?v=1789990755167
-gallery: [assets/characters/arch-aruna-gallery-1790099722180-1.png?v=1790099722180, assets/characters/arch-aruna-gallery-1790099722180-2.png?v=1790099722180, assets/characters/arch-aruna-gallery-1790131372964-2.png?v=1790131372964, assets/characters/arch-aruna-gallery-1790132380182-1.png?v=1790132380182]
+gallery: [assets/characters/arch-aruna-gallery-1790099722180-1.png?v=1790099722180, assets/characters/arch-aruna-gallery-1790099722180-2.png?v=1790099722180, assets/characters/arch-aruna-gallery-1790132380182-1.png?v=1790132380182]
 updated: 2026-09-23
-updated_at: 2026-09-23T02:59:45.837Z
+updated_at: 2026-09-23T03:07:04.751Z
 age: 
 gender: 
 birthday: 
