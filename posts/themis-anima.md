@@ -9,7 +9,7 @@ tags: [Guide-S, Sentinel-S, Psyche, Tartaros, The Defectors]
 image: assets/characters/themis-anima.png?v=1790008839656
 gallery: [assets/characters/themis-anima-gallery-1790100702650-1.png?v=1790100702650, assets/characters/themis-anima-gallery-1790139590493-1.png?v=1790139590493, assets/characters/themis-anima-gallery-1790139590493-2.png?v=1790139590493, assets/characters/themis-anima-gallery-1790139590493-3.png?v=1790139590493]
 updated: 2026-09-23
-updated_at: 2026-09-23T06:04:34.004Z
+updated_at: 2026-09-23T06:09:07.776Z
 age: ??
 gender: Cis F.
 birthday: 
@@ -21,10 +21,13 @@ summary:
 ---
 
 # CHARACTER
-프시케─타르타로스 계보의 센티넬-가이드 이중각성자.
+프시케─타르타로스 계보의 센티넬-가이드 이중각성자. 마음과 영혼에 직접적으로 간섭하는 프시케의 각인으로 타인의 영혼을 회복시키거나 회수할 수 있다. 능력의 범위와 위험성이 극히 큰 탓에 대가가 따른다.
 
-# BACKGROUND
-
+# ABILITY
+가이딩 능력의 대가는 결정화. 왼쪽 안부부터 시작해 현재 좌안을 잃고 안와가 흑요석 동굴처럼 되어 있다.
+센티넬 능력의 대가는 가사 수면. 출력량에 비례하여 가사 상태가 되어 잠에 빠지는 시간이 길어진다.
+또한, '에로스와 프시케'의 전승 탓인지 프시케의 에코로 가이딩을 받은 자는 그 에코에 중독되기 쉽다.
+외에도 균열에 간섭할 수 있는 능력이 있지만, 신체의 소모가 극심하다.
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
