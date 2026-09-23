@@ -9,7 +9,7 @@ tags: [Seigetsu High School, Baseball Team Manager]
 image: assets/characters/another-카네사키-츠바키.png?v=1790016889728
 gallery: [assets/characters/another-카네사키-츠바키-gallery-1790100460398-1.png?v=1790100460398, assets/characters/another-카네사키-츠바키-gallery-1790136335166-1.png?v=1790136335166]
 updated: 2026-09-23
-updated_at: 2026-09-23T04:05:37.990Z
+updated_at: 2026-09-23T10:48:39.221Z
 age: 16
 gender: Cis F.
 birthday: 09/30
@@ -21,10 +21,10 @@ summary:
 ---
 
 # CHARACTER
+세이게츠 고등학교 2학년 C반. 야구부의 매니저를 맡고 있다. 어릴 적 꿈이 '고시엔의 마운드에 서는 것'이었으나, 여성 야구에 대한 인식과 기회의 부족이라는 현실의 벽에 부딪혀 선수가 아닌 매니저로 방향을 전환했다. 잇세 토요와는 한 살 차이의 소꿉친구. 가장 주목하고 있는 선수는 하가와 미카엘, 가장 편한 부원은 데카와 나나.
 
-
-# BACKGROUND
-
+# PAIR
+2026.09.21~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
