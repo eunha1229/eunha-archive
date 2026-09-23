@@ -7,9 +7,9 @@ category: SUB
 slug: arch-nevaeh-3
 tags: [Guide-S, Sentinel-S, Aqua]
 image: assets/characters/arch-nevaeh-3.png?v=1789984061722
-gallery: [assets/characters/arch-nevaeh-3-gallery-1790099669105-1.png?v=1790099669105]
-updated: 2026-09-22
-updated_at: 2026-09-22T17:54:32.429Z
+gallery: [assets/characters/arch-nevaeh-3-gallery-1790099669105-1.png?v=1790099669105, assets/characters/arch-nevaeh-3-gallery-1790129520974-1.png?v=1790129520974]
+updated: 2026-09-23
+updated_at: 2026-09-23T02:12:04.833Z
 age: ??
 gender: ??
 birthday: ??
