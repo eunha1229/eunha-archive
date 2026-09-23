@@ -7,9 +7,9 @@ category: OTHER
 slug: rellationship-axis
 tags: []
 image: assets/characters/rellationship-axis.png?v=1790008314866
-gallery: [assets/characters/rellationship-axis-gallery-1790100680234-1.png?v=1790100680234]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:11:23.565Z
+gallery: [assets/characters/rellationship-axis-gallery-1790137614993-1.png?v=1790137614993, assets/characters/rellationship-axis-gallery-1790137614993-2.png?v=1790137614993]
+updated: 2026-09-23
+updated_at: 2026-09-23T04:27:03.256Z
 age: 
 gender: Cis F.
 birthday: 
