@@ -9,7 +9,7 @@ tags: [Guide-S, Ushas, Xenos (Veda), Muse]
 image: assets/characters/themis-aubade.png?v=1790012457702
 gallery: [assets/characters/themis-aubade-gallery-1790100722808-1.png?v=1790100722808, assets/characters/themis-aubade-gallery-1790139549166-1.png?v=1790139549166, assets/characters/themis-aubade-gallery-1790139549166-2.png?v=1790139549166]
 updated: 2026-09-23
-updated_at: 2026-09-23T06:10:37.940Z
+updated_at: 2026-09-23T06:17:28.778Z
 age: 22
 gender: Cis F.
 birthday: 
@@ -21,7 +21,7 @@ summary:
 ---
 
 # CHARACTER
-우샤스─베다(크세노스) 계보의 S급 가이드. 균열과 이형의 웨이브로 인해 가족과 기억을 잃었다. 사실상 갓난아기와 같은 백지 상태에서 삶을 재시작하고 있다.
+우샤스─베다(크세노스) 계보의 뮤즈 소속 S급 가이드. 균열과 이형의 웨이브로 인해 가족과 기억을 잃었다. 사실상 갓난아기와 같은 백지 상태에서 삶을 재시작하고 있다.
 
 # ABILITY
 
