@@ -8,8 +8,8 @@ slug: meommeo-비비안-메이-호손
 tags: [Normal]
 image: assets/characters/meommeo-비비안-메이-호손.png?v=1790010891453
 gallery: [assets/characters/meommeo-비비안-메이-호손-gallery-1790100577356-1.png?v=1790100577356]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:09:40.513Z
+updated: 2026-09-23
+updated_at: 2026-09-23T10:56:00.630Z
 age: 22
 gender: Cis F.
 birthday: 
@@ -21,10 +21,10 @@ summary:
 ---
 
 # CHARACTER
+센티넬이나 가이드와는 전혀 관계 없는 일반인. 미국 굴지의 재벌인 호손 가의 사생아.
 
-
-# BACKGROUND
-
+# PAIR
+- 헌터: 2026.08.01~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
