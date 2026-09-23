@@ -9,7 +9,7 @@ tags: [Guide-S, Aqua]
 image: assets/characters/arch-marine.png?v=1789996154591
 gallery: [assets/characters/arch-marine-gallery-1790100108220-1.png?v=1790100108220, assets/characters/arch-marine-gallery-1790100108220-2.png?v=1790100108220, assets/characters/arch-marine-gallery-1790134978363-1.png?v=1790134978363]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:44:49.779Z
+updated_at: 2026-09-23T10:24:21.630Z
 age: 20
 gender: Cis F.
 birthday: 
@@ -21,8 +21,7 @@ summary: 괜찮아, 무섭지 않아. 그리 속삭이는 목소리가 있다. �
 ---
 
 # CHARACTER
-아크 입사 10년차. 나이는 어리지만, 가이딩 실력은 수준급! 물론 심층 가이딩 경험은 없다. 방사형 가이딩이 특기.
-부산 출신으로 본래 사투리가 심했으나 제법 많이 교정되었다. 감정이 격해지면 사투리가 튀어나오기도.
+하모니 소속의 S급 물속성 가이드. 아크 입사 10년차. 나이는 어리지만, 가이딩 실력은 수준급! 물론 심층 가이딩 경험은 없다. 방사형 가이딩이 특기. 부산 출신으로 본래 사투리가 심했으나 제법 많이 교정되었다. 감정이 격해지면 사투리가 튀어나오기도.
 
 # ABILITY
 [마린 엠브레이스(Marine Embrace)] 보통 물 속성 가이드보다 훨씬 광범위하고 강력한 치유력을 가진다. 일부 디버프를 상쇄할 수 있는 영역을 전개 가능하며, 본인은 그것을 ‘바다’라고 부른다. 동백꽃 향과 바다내음이 난다.
