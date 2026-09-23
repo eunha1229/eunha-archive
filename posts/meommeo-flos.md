@@ -8,8 +8,8 @@ slug: meommeo-flos
 tags: [Guide-S, Eclipse]
 image: assets/characters/meommeo-flos.png?v=1790009251193
 gallery: [assets/characters/meommeo-flos-gallery-1790100505812-1.png?v=1790100505812, assets/characters/meommeo-flos-gallery-1790100505812-2.png?v=1790100505812]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:08:30.350Z
+updated: 2026-09-23
+updated_at: 2026-09-23T10:50:59.867Z
 age: 24
 gender: Cis F.
 birthday: 
@@ -21,10 +21,10 @@ summary: 봄이 오는 한 다시 피어나고 마는 것. 이클립스의 꽃, 
 ---
 
 # CHARACTER
+이클립스 서울 지부 소속의 S급 가이드. 수장인 아르비테르의 대녀.
 
-
-# BACKGROUND
-
+# PAIR
+- 아르비테르: 2026.01.21~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
