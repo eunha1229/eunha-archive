@@ -9,7 +9,7 @@ tags: [Guide-S, Pyre]
 image: assets/characters/arch-ember.png?v=1789991163265
 gallery: [assets/characters/arch-ember-gallery-1790099799289-1.png?v=1790099799289, assets/characters/arch-ember-gallery-1790099799289-2.png?v=1790099799289, assets/characters/arch-ember-gallery-1790132976589-1.png?v=1790132976589]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:35:39.914Z
+updated_at: 2026-09-23T10:16:53.052Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -25,6 +25,10 @@ summary: 생명의 불씨를 틔우고 키우는 것은, 언제나 작은 티끌
 
 # BACKGROUND
 [Cineraxis(재의 축)]. 불 속성 패시브인 전투력 증폭 외에도 불을 이용한 난기류 조절로 방향 유도도 할 수 있는 현장 서포트 형 인재. 가이딩은 아직 조금 서투르다!
+
+# PAIR
+- 카토: 2026.03.01~ [Main]
+- 셰인: 2026.03.01~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
