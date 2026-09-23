@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-ia
 tags: [Sentine-B, Aero]
 image: assets/characters/arch-ia.png?v=1789997527794
-gallery: [assets/characters/arch-ia-gallery-1790100185597-1.png?v=1790100185597, assets/characters/arch-ia-gallery-1790100185597-2.png?v=1790100185597, assets/characters/arch-ia-gallery-1790131894500-1.png?v=1790131894500]
+gallery: [assets/characters/arch-ia-gallery-1790100185597-1.png?v=1790100185597, assets/characters/arch-ia-gallery-1790100185597-2.png?v=1790100185597, assets/characters/arch-ia-gallery-1790132341723-1.png?v=1790132341723]
 updated: 2026-09-23
-updated_at: 2026-09-23T02:51:38.474Z
+updated_at: 2026-09-23T02:59:15.281Z
 age: 약 3년 전 제조된 것으로 추정
 gender: 정체성 확립 전
 birthday: 
