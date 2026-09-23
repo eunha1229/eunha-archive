@@ -8,8 +8,8 @@ slug: arch-irelle
 tags: [Guide-S, Verde, R.S.T.]
 image: assets/characters/arch-irelle.png?v=1789995946964
 gallery: [assets/characters/arch-irelle-gallery-1790100076842-1.png?v=1790100076842, assets/characters/arch-irelle-gallery-1790100076842-2.png?v=1790100076842]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:01:23.219Z
+updated: 2026-09-23
+updated_at: 2026-09-23T05:42:49.526Z
 age: 
 gender: Cis F.
 birthday: 
@@ -21,10 +21,11 @@ summary: 쓰러지지 않기 위해 굳건히 뿌리내려야 하고, 부러지�
 ---
 
 # CHARACTER
+군인 집안 출신으로 호신술 및 총기 사용에 능하다. 현재 긴급제압팀(R.S.T.)에 소속되어 있다.
 
-
-# BACKGROUND
-
+# ABILITY
+[성소의 레퀴엠(Sanctuary Requiem)] 숲 속 단단한 고목처럼 안정적으로 받쳐주는 가이딩. 파장 안정화 및 상처 재생에 특화. 은은한 목련 향이 난다.
+[비타 트리거(Vita Trigger)] 특수 제조된 가이딩 탄환으로 사격. 생명력이 고농도로 응축된 탄환으로 폭주 개체의 빠른 진정 및 쇼크로 인한 실신을 유발한다.
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
