@@ -9,7 +9,7 @@ tags: [Guide-A, Neutral]
 image: assets/characters/fearless-psyche-2.png?v=1789983735432
 gallery: [assets/characters/fearless-psyche-2-gallery-1790099542601-1.png?v=1790099542601, assets/characters/fearless-psyche-2-gallery-1790099542601-2.png?v=1790099542601, assets/characters/fearless-psyche-2-gallery-1790130993442-1.png?v=1790130993442]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:08:53.980Z
+updated_at: 2026-09-23T10:10:22.238Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -28,7 +28,7 @@ summary: 자신의 생명을 떼내어 선사하는 봄의 순풍은 이타적 �
 
 # PAIR
 『ARCH』
-- 산타: 2025.12.29~
+- 산타: 2025.12.29~ [Main]
 - 노아: 2026.01.01~
 - 아모레: 2026.01.04~
 - 블루: 2026.01.12~
