@@ -9,7 +9,7 @@ tags: [Guide-S, Aqua]
 image: assets/characters/arch-marine.png?v=1789996154591
 gallery: [assets/characters/arch-marine-gallery-1790100108220-1.png?v=1790100108220, assets/characters/arch-marine-gallery-1790100108220-2.png?v=1790100108220, assets/characters/arch-marine-gallery-1790134978363-1.png?v=1790134978363]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:24:21.630Z
+updated_at: 2026-09-23T10:29:08.831Z
 age: 20
 gender: Cis F.
 birthday: 
@@ -25,6 +25,9 @@ summary: 괜찮아, 무섭지 않아. 그리 속삭이는 목소리가 있다. �
 
 # ABILITY
 [마린 엠브레이스(Marine Embrace)] 보통 물 속성 가이드보다 훨씬 광범위하고 강력한 치유력을 가진다. 일부 디버프를 상쇄할 수 있는 영역을 전개 가능하며, 본인은 그것을 ‘바다’라고 부른다. 동백꽃 향과 바다내음이 난다.
+
+# PAIR
+- 바이브: 2026.03.28~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
