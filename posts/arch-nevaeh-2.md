@@ -9,7 +9,7 @@ tags: [Sentinel-S, Aqua]
 image: assets/characters/arch-nevaeh-2.png?v=1789984030975
 gallery: [assets/characters/arch-nevaeh-2-gallery-1790099643526-1.png?v=1790099643526, assets/characters/arch-nevaeh-2-gallery-1790099643526-2.png?v=1790099643526, assets/characters/arch-nevaeh-2-gallery-1790131014440-1.png?v=1790131014440]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:21:53.841Z
+updated_at: 2026-09-23T05:49:54.443Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -21,7 +21,7 @@ summary: 그대. 생을 입은 자여, 명을 짊어진 자여. 창천으로 추
 ---
 
 # CHARACTER
-14살, 빌런들에 의해 고향이 반파되며 가족을 모두 잃었다. 당시 무너진 건물 잔해에서 수 일을 갇혀 지내다 물 속성 가이드로 발현되어 ARCH에 구조되었다. 때문에 PTSD와 폐소 공포증을 가지고 있다. 다만 가이드로서 일하다가 21살 무렵, 파트너 센티넬의 폭주에 휘말리며 가이딩 능력을 잃고 센티넬로 재각성하였다.
+14살, 빌런들에 의해 고향이 반파되며 가족을 모두 잃었다. 당시 무너진 건물 잔해에서 수 일을 갇혀 지내다 물 속성 가이드로 발현되어 ARCH에 구조되었다. 때문에 PTSD와 폐소 공포증을 가지고 있다. 다만 가이드로서 일하다가 21살 무렵, 파트너 센티넬의 폭주에 휘말리며 가이딩 능력을 잃고 센티넬로 재각성하였다. 현재 뱅가드 6팀 소속.
 
 # ABILITY
 [아발론: 피안의 바다(Avalon: Liminal Sea)] 일정 영역을 일시적으로 '바다'로 지정하여 광범위하게 활용하거나, 주위 환경 및 대기 중의 물을 끌어모아 운용이 가능하다. 단, 전자의 경우 본인과 본인 능력 한정이다.
