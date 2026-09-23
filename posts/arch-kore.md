@@ -7,9 +7,9 @@ category: MAIN
 slug: arch-kore
 tags: [Sentinel-A, Verde]
 image: assets/characters/arch-kore.png?v=1789983753857
-gallery: [assets/characters/arch-kore-gallery-1790099578370-1.png?v=1790099578370, assets/characters/arch-kore-gallery-1790099578370-2.png?v=1790099578370]
+gallery: [assets/characters/arch-kore-gallery-1790099578370-1.png?v=1790099578370, assets/characters/arch-kore-gallery-1790099578370-2.png?v=1790099578370, assets/characters/arch-kore-gallery-1790182945447-1.png?v=1790182945447]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:11:58.335Z
+updated_at: 2026-09-23T17:02:28.894Z
 age: 26
 gender: Cis F.
 birthday: 09/30
