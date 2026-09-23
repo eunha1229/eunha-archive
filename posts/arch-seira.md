@@ -9,7 +9,7 @@ tags: [Sentinel-A, Aero]
 image: assets/characters/arch-seira.png?v=1789995099492
 gallery: [assets/characters/arch-seira-gallery-1790100041949-1.png?v=1790100041949, assets/characters/arch-seira-gallery-1790100041949-2.png?v=1790100041949, assets/characters/arch-seira-gallery-1790132570521-1.png?v=1790132570521]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:41:48.361Z
+updated_at: 2026-09-23T10:23:27.457Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -21,7 +21,7 @@ summary: 때로는 강하게, 때로는 약하게. 때로는 맞은편에서, �
 ---
 
 # CHARACTER
-임무 중 순직한 강력계 형사의 딸. 부친의 같은 반 후배였던 정의혁과는 어린 시절부터 삼촌, 조카 하며 지냈다.
+에이전트 소속의 A급 바람속성 센티넬. 임무 중 순직한 강력계 형사의 딸로, 부친의 같은 반 후배였던 정의혁과는 어린 시절부터 삼촌, 조카 하며 지냈다.
 
 # ABILITY
 [제피라 코어(Zephyra Core)] 마치 인간이 아닌 바람의 정령이라도 되는 것처럼, 바람과 일체화되어 자신의 편으로 끌어들인다. 변칙적인 컨트롤을 물 흐르듯 다루며 본인 스스로가 날아다니는 것은 물론 공격, 방어, 서포트 등 너른 방향으로 활용이 가능하다.
