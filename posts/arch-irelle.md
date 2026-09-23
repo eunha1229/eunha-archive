@@ -9,7 +9,7 @@ tags: [Guide-S, Verde, R.S.T.]
 image: assets/characters/arch-irelle.png?v=1789995946964
 gallery: [assets/characters/arch-irelle-gallery-1790100076842-1.png?v=1790100076842, assets/characters/arch-irelle-gallery-1790100076842-2.png?v=1790100076842]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:42:49.526Z
+updated_at: 2026-09-23T10:23:59.722Z
 age: 
 gender: Cis F.
 birthday: 
@@ -21,7 +21,7 @@ summary: 쓰러지지 않기 위해 굳건히 뿌리내려야 하고, 부러지�
 ---
 
 # CHARACTER
-군인 집안 출신으로 호신술 및 총기 사용에 능하다. 현재 긴급제압팀(R.S.T.)에 소속되어 있다.
+긴급제압팀(R.S.T.) 소속의 S급 풀속성 가이드. 군인 집안 출신으로 호신술 및 총기 사용에 능하다.
 
 # ABILITY
 [성소의 레퀴엠(Sanctuary Requiem)] 숲 속 단단한 고목처럼 안정적으로 받쳐주는 가이딩. 파장 안정화 및 상처 재생에 특화. 은은한 목련 향이 난다.
