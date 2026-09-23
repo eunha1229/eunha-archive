@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-elegia
 tags: [Guide-S, Verde]
 image: assets/characters/arch-elegia.png?v=1789994006458
-gallery: [assets/characters/arch-elegia-gallery-1790100006009-1.png?v=1790100006009, assets/characters/arch-elegia-gallery-1790100006009-2.png?v=1790100006009]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:00:12.542Z
+gallery: [assets/characters/arch-elegia-gallery-1790100006009-1.png?v=1790100006009, assets/characters/arch-elegia-gallery-1790100006009-2.png?v=1790100006009, assets/characters/arch-elegia-gallery-1790134112520-1.png?v=1790134112520]
+updated: 2026-09-23
+updated_at: 2026-09-23T03:28:36.725Z
 age: 28
 gender: Cis F.
 birthday: 11/07
