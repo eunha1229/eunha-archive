@@ -8,8 +8,8 @@ slug: rellationship-이아윤
 tags: []
 image: assets/characters/rellationship-이아윤.png?v=1790007511068
 gallery: [assets/characters/rellationship-이아윤-gallery-1790100659518-1.png?v=1790100659518]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:11:02.247Z
+updated: 2026-09-23
+updated_at: 2026-09-23T10:58:36.224Z
 age: 
 gender: Cis F.
 birthday: 
@@ -23,8 +23,8 @@ summary:
 # CHARACTER
 
 
-# BACKGROUND
-
+# PAIR
+- 강하준: 2026.03.05~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
