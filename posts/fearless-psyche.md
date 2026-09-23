@@ -9,7 +9,7 @@ tags: [Guide-A]
 image: assets/characters/fearless-psyche.png?v=1789983250190
 gallery: [assets/characters/fearless-psyche-gallery-1790099488150-1.png?v=1790099488150, assets/characters/fearless-psyche-gallery-1790130975660-1.png?v=1790130975660]
 updated: 2026-09-23
-updated_at: 2026-09-23T02:36:18.727Z
+updated_at: 2026-09-23T05:20:47.209Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -21,10 +21,10 @@ summary: 스스로를 부수어 지어 올린 성역. 찢어진 날개, 영혼�
 ---
 
 # CHARACTER
+21세부터 Fearless 소속의 가이드로 지내 왔다. 다만, 사이가 좋던 이전 파트너 사망 이후 상당 기간 휴직을 하다 복귀했다. 그 후로부터 언제나 검은 상복 같은 옷만 입고 지내고 있으며, 지독한 자아존중감 결핍에 시달리고 있다.
 
-
-# BACKGROUND
-
+# ABILITY
+접촉 가이딩 외에도 광범위 방사 가이딩에 특화. 가이딩은 라벤더와 튤립 같은 봄꽃의 향취가 난다.
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
