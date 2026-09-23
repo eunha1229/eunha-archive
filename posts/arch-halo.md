@@ -9,7 +9,7 @@ tags: [Sentinel-A, Pyre]
 image: assets/characters/arch-halo.png?v=1789996839228
 gallery: [assets/characters/arch-halo-gallery-1790100144691-1.png?v=1790100144691, assets/characters/arch-halo-gallery-1790100144691-2.png?v=1790100144691, assets/characters/arch-halo-gallery-1790133254688-1.png?v=1790133254688]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:24:40.814Z
+updated_at: 2026-09-23T10:29:42.449Z
 age: 20
 gender: Cis F.
 birthday: 
@@ -29,6 +29,9 @@ summary: 갈망하는 빛에 눈이 멀기 싫다면, 스스로가 그 빛이 �
 - 타겟-붉은 충격-(Target-Scarlet Shock-): 불꽃을 응축시켜 탄환처럼 만든 뒤, 쏘아내어 터뜨리는 포격 및 파괴 기술.
 - 비기스트 드리머(Biggest Dreamer): 광범위한 불꽃을 휘두르며 일대를 불바다로 만들거나 대상을 불태우는 기술.
 - 브레이브 하트(Brave Heart): 맨몸 기술로 물리 타격을 가할 수 있도록, 체내 열기를 조절하여 신체 능력을 대폭 증강.
+
+# PAIR
+- 코드: 2026.05.26~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
