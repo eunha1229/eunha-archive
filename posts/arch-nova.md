@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-nova
 tags: [Sentinel-S, Fulmen]
 image: assets/characters/arch-nova.png?v=1789991919823
-gallery: [assets/characters/arch-nova-gallery-1790099846872-1.png?v=1790099846872, assets/characters/arch-nova-gallery-1790099846872-2.png?v=1790099846872]
-updated: 2026-09-22
-updated_at: 2026-09-22T17:57:34.427Z
+gallery: [assets/characters/arch-nova-gallery-1790099846872-1.png?v=1790099846872, assets/characters/arch-nova-gallery-1790099846872-2.png?v=1790099846872, assets/characters/arch-nova-gallery-1790135237919-1.png?v=1790135237919]
+updated: 2026-09-23
+updated_at: 2026-09-23T03:47:21.714Z
 age: 24
 gender: Cis F.
 birthday: 
