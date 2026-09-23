@@ -8,8 +8,8 @@ slug: meommeo-blanc
 tags: [Guide-A, Helios]
 image: assets/characters/meommeo-blanc.png?v=1790010397395
 gallery: [assets/characters/meommeo-blanc-gallery-1790100559360-1.png?v=1790100559360]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:09:22.772Z
+updated: 2026-09-23
+updated_at: 2026-09-23T10:54:41.432Z
 age: 23
 gender: Cis F.
 birthday: 
@@ -21,10 +21,10 @@ summary:
 ---
 
 # CHARACTER
+- 헬리오스 소속의 A급 가이드. 각성한 지 아직 1년이 안 된 햇병아리다.
 
-
-# BACKGROUND
-
+# PAIR
+- 픽터: 2026.06.23~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
