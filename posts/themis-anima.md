@@ -9,7 +9,7 @@ tags: [Guide-S, Sentinel-S, Psyche, Tartaros, The Defectors]
 image: assets/characters/themis-anima.png?v=1790008839656
 gallery: [assets/characters/themis-anima-gallery-1790100702650-1.png?v=1790100702650, assets/characters/themis-anima-gallery-1790139590493-1.png?v=1790139590493, assets/characters/themis-anima-gallery-1790139590493-2.png?v=1790139590493, assets/characters/themis-anima-gallery-1790139590493-3.png?v=1790139590493]
 updated: 2026-09-23
-updated_at: 2026-09-23T06:09:07.776Z
+updated_at: 2026-09-23T11:02:46.834Z
 age: ??
 gender: Cis F.
 birthday: 
@@ -44,6 +44,11 @@ black lace veil, long black wedding veil, luxury lace details, 2::veil covered h
 black neck choker, opal point,
 black off-shoulder dress, black see-through lace point covered chest, sleeveless, luxury lace details, mermaid line long dress, glitter point on the bottom dress, slit skirt,
 black strap heels, opal point,
+
+# PAIR
+- 레비 라자루스: 2026.09.02~ [Main]
+- 필리포 피오레: 2026.09.02~
+- 디에고: 2026.09.02~
 
 <!-- persona-archive:copy -->
 # WEAR A MASK
