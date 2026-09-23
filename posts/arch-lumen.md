@@ -9,7 +9,7 @@ tags: [Sentinel-A, Aero]
 image: assets/characters/arch-lumen.png?v=1789993249933
 gallery: [assets/characters/arch-lumen-gallery-1790099972695-1.png?v=1790099972695, assets/characters/arch-lumen-gallery-1790099972695-2.png?v=1790099972695, assets/characters/arch-lumen-gallery-1790133513380-1.png?v=1790133513380]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:22:26.528Z
+updated_at: 2026-09-23T10:28:10.514Z
 age: 24
 gender: Cis F.
 birthday: 
@@ -29,6 +29,9 @@ summary: 대기가 굴절하고, 기류는 뒤틀린다. 섭리에의 반발은 
 - 보이드 쉬어(Void Shear): 눈에 보이지 않는 초고압의 바람을 조작, 총탄처럼 압축시켜 적을 격파한 다음 몸 속에서 터지게 만드는 마무리 기술.
 - 보레아스 슈라우드(Boreas Shroud): 눈에 보이지 않는 초고압의 바람을 조작, 칼날처럼 벼려진 폭풍으로 주변을 초토화시키는 광범위 기술.
 - 아이올로스 케이지(Aeolus Cage) 국소적인 허리케인을 형성, 적을 구속하거나 공격의 궤도를 틀어버리는 기술.
+
+# PAIR
+- 휴고: 2026.03.05~ ※근친 소재
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
