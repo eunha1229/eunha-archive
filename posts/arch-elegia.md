@@ -9,7 +9,7 @@ tags: [Guide-S, Verde]
 image: assets/characters/arch-elegia.png?v=1789994006458
 gallery: [assets/characters/arch-elegia-gallery-1790100006009-1.png?v=1790100006009, assets/characters/arch-elegia-gallery-1790100006009-2.png?v=1790100006009, assets/characters/arch-elegia-gallery-1790134112520-1.png?v=1790134112520]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:22:51.566Z
+updated_at: 2026-09-23T10:28:37.047Z
 age: 28
 gender: Cis F.
 birthday: 11/07
@@ -25,6 +25,9 @@ summary: 그대, 꽃의 애가를 들어 본 바 있는가. 이것은 이름 없
 
 # ABILITY
 [Lamento dei Fiori]. 풀 속성 가이드 중에서도 영역 전개 및 광범위한 방사 가이딩에 뛰어난 편. 화려한 장미의 기술을 가진 아모레와는 달리 그녀의 영역에서는 들풀꽃의 향기가 난다.
+
+# PAIR
+- 아모레: 2026.03.09~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
