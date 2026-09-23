@@ -9,7 +9,7 @@ tags: [Sentinel-S, Fulmen]
 image: assets/characters/arch-nova.png?v=1789991919823
 gallery: [assets/characters/arch-nova-gallery-1790099846872-1.png?v=1790099846872, assets/characters/arch-nova-gallery-1790099846872-2.png?v=1790099846872, assets/characters/arch-nova-gallery-1790135237919-1.png?v=1790135237919]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:36:41.174Z
+updated_at: 2026-09-23T10:17:27.040Z
 age: 24
 gender: Cis F.
 birthday: 
@@ -29,6 +29,9 @@ summary: 그 거대한 빛은 새로운 탄생의 섬광인가, 혹은 예정된
 - 펄서 스트라이크(Pulsar Strike): 초고압 전격을 연속 방출하여 전방의 적들을 지속 타격.
 - 마그네타 필드(Magnetar Field): 초강력 자기장 형성으로 적의 공격 궤도를 비틀거나, 금속 잔해들을 모아 방패를 형성.
 - 스타폴(Starfall): 단일 혹은 다수의 전기 낙뢰를 범위 내에 떨어뜨리는 폭격형 마무리 기술.
+
+# PAIR
+- 에덴: 2026.03.05~ ※근친 소재
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
