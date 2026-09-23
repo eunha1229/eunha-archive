@@ -9,7 +9,7 @@ tags: [Guide-S, Aero, R.S.T.]
 image: assets/characters/arch-aruna.png?v=1789990755167
 gallery: [assets/characters/arch-aruna-gallery-1790099722180-1.png?v=1790099722180, assets/characters/arch-aruna-gallery-1790099722180-2.png?v=1790099722180, assets/characters/arch-aruna-gallery-1790132380182-1.png?v=1790132380182]
 updated: 2026-09-23
-updated_at: 2026-09-23T03:07:04.751Z
+updated_at: 2026-09-23T05:34:08.940Z
 age: 
 gender: 
 birthday: 
@@ -21,9 +21,10 @@ summary: 끝나지 않는 밤은 없고, 해는 반드시 떠오른다. 코드�
 ---
 
 # CHARACTER
+전직 검도 국가대표 출신. ARCH에 들어오기 전부터 도검소지허가증을 가지고 있었다.
+현재는 긴급제압팀(R.S.T.)에 소속되어 있다.
 
-
-# BACKGROUND
+# ABILITY
 
 
 <!-- persona-archive:copy -->
