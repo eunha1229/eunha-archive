@@ -7,9 +7,9 @@ category: MAIN
 slug: another-바네사-아우로라
 tags: [@YYG, The Artist, Goddaughter]
 image: assets/characters/another-바네사-아우로라.png?v=1789985640970
-gallery: [assets/characters/another-바네사-아우로라-gallery-1790099695711-1.png?v=1790099695711]
-updated: 2026-09-22
-updated_at: 2026-09-22T17:54:58.984Z
+gallery: [assets/characters/another-바네사-아우로라-gallery-1790099695711-1.png?v=1790099695711, assets/characters/another-바네사-아우로라-gallery-1790131220918-1.png?v=1790131220918, assets/characters/another-바네사-아우로라-gallery-1790131220918-2.png?v=1790131220918]
+updated: 2026-09-23
+updated_at: 2026-09-23T02:40:32.372Z
 age: 20
 gender: Cis F.
 birthday: 09/30
