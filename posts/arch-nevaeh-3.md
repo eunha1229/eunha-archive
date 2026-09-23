@@ -9,7 +9,7 @@ tags: [Guide-S, Sentinel-S, Aqua]
 image: assets/characters/arch-nevaeh-3.png?v=1789984061722
 gallery: [assets/characters/arch-nevaeh-3-gallery-1790099669105-1.png?v=1790099669105, assets/characters/arch-nevaeh-3-gallery-1790129520974-1.png?v=1790129520974]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:25:39.591Z
+updated_at: 2026-09-23T10:13:52.109Z
 age: ??
 gender: ??
 birthday: ??
@@ -33,6 +33,9 @@ summary: 이야기가 쌓여 형체가 되고, 감정이 쌓여 영혼이 된다
 - 피안의 검(Silver of the Other Shore): 물로 벼려낸 다수의 검을 자유자재로 움직여 대상을 타격하는 마무리 기술.
 
 [정화의 호흡(Háls Hagnḗ)]. 물 속성의 패시브인 상처 치유 및 재생 외에도 중독 및 디버프 해제와 동시에 면역을 부여한다.
+
+# PAIR
+- 저스티스: 2026.05.25~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
