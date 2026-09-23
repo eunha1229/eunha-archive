@@ -9,7 +9,7 @@ tags: [Sentinel-A, Verde]
 image: assets/characters/arch-kore.png?v=1789983753857
 gallery: [assets/characters/arch-kore-gallery-1790099578370-1.png?v=1790099578370, assets/characters/arch-kore-gallery-1790099578370-2.png?v=1790099578370]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:21:23.142Z
+updated_at: 2026-09-23T10:10:04.051Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -29,6 +29,13 @@ summary: 사계는 돌고 돌지만, 그 순환에서 벗어난 제5계절은 �
 - 네크로안토스(Necroanthos): 적의 세포 구조와 DNA를 조작하여 신체를 갉아먹고 영양분을 흡수하며 자라나는 꽃을 피워 상대를 무력화 혹은 사망에 이르게 함.
 - 크토니아 바인(Chtonia Vine): 질긴 덩굴이나 나무 뿌리 등을 조작하여 생존자 구조, 지형 파악, 물리적 공격 등 광범위하게 활용.
 - 케포스 레테(Kepos Lethe): 독초나 독화를 피워내 수면향, 마취제, 신경독 등을 일대에 퍼지게 한다. 다만, 터져나온 독가루를 제어하는 것은 능력 밖의 일.
+
+# PAIR
+『ARCH』
+- 에덴: 2026.01.05~
+- Dr.밴스: 2026.01.08~
+- 휴고: 2026.01.13~ [Main]
+- 카르마: 2026.01.19~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
