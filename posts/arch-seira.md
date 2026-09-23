@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-seira
 tags: [Sentinel-A, Aero]
 image: assets/characters/arch-seira.png?v=1789995099492
-gallery: [assets/characters/arch-seira-gallery-1790100041949-1.png?v=1790100041949, assets/characters/arch-seira-gallery-1790100041949-2.png?v=1790100041949]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:00:48.587Z
+gallery: [assets/characters/arch-seira-gallery-1790100041949-1.png?v=1790100041949, assets/characters/arch-seira-gallery-1790100041949-2.png?v=1790100041949, assets/characters/arch-seira-gallery-1790131582200-1.png?v=1790131582200]
+updated: 2026-09-23
+updated_at: 2026-09-23T02:46:26.068Z
 age: 21
 gender: Cis F.
 birthday: 
