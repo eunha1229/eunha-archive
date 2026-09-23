@@ -9,7 +9,7 @@ tags: [Guide-S, Ushas, Xenos (Veda), Muse]
 image: assets/characters/themis-aubade.png?v=1790012457702
 gallery: [assets/characters/themis-aubade-gallery-1790100722808-1.png?v=1790100722808, assets/characters/themis-aubade-gallery-1790139549166-1.png?v=1790139549166, assets/characters/themis-aubade-gallery-1790139549166-2.png?v=1790139549166]
 updated: 2026-09-23
-updated_at: 2026-09-23T06:20:29.062Z
+updated_at: 2026-09-23T11:06:23.370Z
 age: 22
 gender: Cis F.
 birthday: 
@@ -25,6 +25,10 @@ summary:
 
 # ABILITY
 센티넬의 시각·청각·운동 감각 등을 증폭 및 제어할 수 있는 감각조종 능력을 지니고 있다.
+
+# PAIR
+『충격 실화: 가이드 급구』
+- 2026.08.31~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
