@@ -9,7 +9,7 @@ tags: [Guide-A, Neutral]
 image: assets/characters/rellationship-lullay.png?v=1790006949086
 gallery: [assets/characters/rellationship-lullay-gallery-1790100637456-1.png?v=1790100637456, assets/characters/rellationship-lullay-gallery-1790100637456-2.png?v=1790100637456, assets/characters/rellationship-lullay-gallery-1790135821364-1.png?v=1790135821364]
 updated: 2026-09-23
-updated_at: 2026-09-23T03:57:05.063Z
+updated_at: 2026-09-23T10:58:11.338Z
 age: 
 gender: 
 birthday: 
@@ -23,8 +23,8 @@ summary: 완전한 무(無)의 상태. 그렇기에 가장 순수하다. 코드�
 # CHARACTER
 
 
-# BACKGROUND
-
+# PAIR
+- 베스퍼: 2026.02.19~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
