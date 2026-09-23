@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-halo
 tags: [Sentinel-A, Pyre]
 image: assets/characters/arch-halo.png?v=1789996839228
-gallery: [assets/characters/arch-halo-gallery-1790100144691-1.png?v=1790100144691, assets/characters/arch-halo-gallery-1790100144691-2.png?v=1790100144691]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:02:31.161Z
+gallery: [assets/characters/arch-halo-gallery-1790100144691-1.png?v=1790100144691, assets/characters/arch-halo-gallery-1790100144691-2.png?v=1790100144691, assets/characters/arch-halo-gallery-1790131817913-1.png?v=1790131817913]
+updated: 2026-09-23
+updated_at: 2026-09-23T02:50:22.028Z
 age: 20
 gender: Cis F.
 birthday: 
