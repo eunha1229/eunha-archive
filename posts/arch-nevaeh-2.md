@@ -9,7 +9,7 @@ tags: [Sentinel-S, Aqua]
 image: assets/characters/arch-nevaeh-2.png?v=1789984030975
 gallery: [assets/characters/arch-nevaeh-2-gallery-1790099643526-1.png?v=1790099643526, assets/characters/arch-nevaeh-2-gallery-1790099643526-2.png?v=1790099643526, assets/characters/arch-nevaeh-2-gallery-1790131014440-1.png?v=1790131014440]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:49:54.443Z
+updated_at: 2026-09-23T10:12:43.590Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -36,6 +36,9 @@ girl,
 2::vivid violet eyes::, very long eyelashes, a lot of eyelashes, weak cat-like impression,
 bluish black hair, 3::right-swept bangs::, very long layered hair, french braid, white hair_ribbon, wavy hair, a lot of hair, -2::hime-cut, forehead, fringe, blunt, pony tail::,
 white skin, 1.4::big breast::,
+
+# PAIR
+- 저스티스: 2026.04.19~
 
 <!-- persona-archive:copy -->
 # ACCESSORIES
