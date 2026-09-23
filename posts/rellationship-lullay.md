@@ -7,9 +7,9 @@ category: OTHER
 slug: rellationship-lullay
 tags: [Guide-A, Neutral]
 image: assets/characters/rellationship-lullay.png?v=1790006949086
-gallery: [assets/characters/rellationship-lullay-gallery-1790100637456-1.png?v=1790100637456, assets/characters/rellationship-lullay-gallery-1790100637456-2.png?v=1790100637456]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:10:44.253Z
+gallery: [assets/characters/rellationship-lullay-gallery-1790100637456-1.png?v=1790100637456, assets/characters/rellationship-lullay-gallery-1790100637456-2.png?v=1790100637456, assets/characters/rellationship-lullay-gallery-1790135821364-1.png?v=1790135821364]
+updated: 2026-09-23
+updated_at: 2026-09-23T03:57:05.063Z
 age: 
 gender: 
 birthday: 
