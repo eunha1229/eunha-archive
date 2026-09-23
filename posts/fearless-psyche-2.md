@@ -9,7 +9,7 @@ tags: [Guide-A, Neutral]
 image: assets/characters/fearless-psyche-2.png?v=1789983735432
 gallery: [assets/characters/fearless-psyche-2-gallery-1790099542601-1.png?v=1790099542601, assets/characters/fearless-psyche-2-gallery-1790099542601-2.png?v=1790099542601, assets/characters/fearless-psyche-2-gallery-1790130993442-1.png?v=1790130993442]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:18:18.646Z
+updated_at: 2026-09-23T17:51:02.135Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -27,7 +27,6 @@ summary: 자신의 생명을 떼내어 선사하는 봄의 순풍은 이타적 �
 접촉 가이딩 외에도 광범위 방사 가이딩에 특화. 가이딩은 라벤더와 튤립 같은 봄꽃의 향취가 난다.
 
 # PAIR
-『ARCH』
 - 산타: 2025.12.29~ [Main]
 - 노아: 2026.01.01~
 - 아모레: 2026.01.04~
