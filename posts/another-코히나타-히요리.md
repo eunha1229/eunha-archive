@@ -9,7 +9,7 @@ tags: [@sugar, Tsukinai]
 image: assets/characters/another-코히나타-히요리.png?v=1790016270082
 gallery: [assets/characters/another-코히나타-히요리-gallery-1790100403850-1.png?v=1790100403850, assets/characters/another-코히나타-히요리-gallery-1790136059366-1.png?v=1790136059366]
 updated: 2026-09-23
-updated_at: 2026-09-23T04:01:02.944Z
+updated_at: 2026-09-23T10:37:52.177Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -23,8 +23,8 @@ summary:
 # CHARACTER
 
 
-# BACKGROUND
-
+# PAIR
+- 신야 사쿠: 2026.09.14~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
