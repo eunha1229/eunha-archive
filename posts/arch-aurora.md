@@ -9,7 +9,7 @@ tags: [Guide-A, Neutral]
 image: assets/characters/arch-aurora.png?v=1790006127118
 gallery: [assets/characters/arch-aurora-gallery-1790100331611-1.png?v=1790100331611, assets/characters/arch-aurora-gallery-1790134759976-1.png?v=1790134759976, assets/characters/arch-aurora-gallery-1790134759976-2.png?v=1790134759976]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:48:49.103Z
+updated_at: 2026-09-23T10:35:59.493Z
 age: 28
 gender: Cis F.
 birthday: 
@@ -21,10 +21,13 @@ summary: 비애여, 고한이여, 희연과 안락이여. 색을 가진 모든 �
 ---
 
 # CHARACTER
-하모니 소속의 가이드로, 현재 행정직으로 일하고 있다. 정의혁의 전처인 안지영의 친 여동생. 각자 부친과 모친의 성을 이어 별성이지만 부모는 같고, 사이도 무척 좋았다. 본래는 전투 현장직 가이드로서 일해 왔으나, 모종의 이유로 행정직으로 전환하였다.
+하모니 소속의 A급 무속성 가이드. 현재 행정직으로 일하고 있다. 정의혁의 전처인 안지영의 친 여동생. 각자 부친과 모친의 성을 이어 별성이지만 부모는 같고, 사이도 무척 좋았다. 본래는 전투 현장직 가이드로서 일해 왔으나, 모종의 이유로 행정직으로 전환하였다.
 
 # ABILITY
 
+
+# PAIR
+- 저스티스: 2026.04.19~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
