@@ -7,9 +7,9 @@ category: SUB
 slug: arch-marine
 tags: [Guide-S, Aqua]
 image: assets/characters/arch-marine.png?v=1789996154591
-gallery: [assets/characters/arch-marine-gallery-1790100108220-1.png?v=1790100108220, assets/characters/arch-marine-gallery-1790100108220-2.png?v=1790100108220, assets/characters/arch-marine-gallery-1790131752527-1.png?v=1790131752527, assets/characters/arch-marine-gallery-1790131752527-2.png?v=1790131752527]
+gallery: [assets/characters/arch-marine-gallery-1790100108220-1.png?v=1790100108220, assets/characters/arch-marine-gallery-1790100108220-2.png?v=1790100108220, assets/characters/arch-marine-gallery-1790134978363-1.png?v=1790134978363]
 updated: 2026-09-23
-updated_at: 2026-09-23T02:49:19.967Z
+updated_at: 2026-09-23T03:43:05.497Z
 age: 20
 gender: Cis F.
 birthday: 
