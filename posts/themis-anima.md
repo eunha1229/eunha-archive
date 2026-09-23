@@ -7,9 +7,9 @@ category: MAIN
 slug: themis-anima
 tags: [Guide-S, Sentinel-S, Psyche, Tartaros, The Defectors]
 image: assets/characters/themis-anima.png?v=1790008839656
-gallery: [assets/characters/themis-anima-gallery-1790100702650-1.png?v=1790100702650, assets/characters/themis-anima-gallery-1790129488717-1.png?v=1790129488717, assets/characters/themis-anima-gallery-1790129488717-2.png?v=1790129488717]
+gallery: [assets/characters/themis-anima-gallery-1790100702650-1.png?v=1790100702650, assets/characters/themis-anima-gallery-1790139590493-1.png?v=1790139590493, assets/characters/themis-anima-gallery-1790139590493-2.png?v=1790139590493, assets/characters/themis-anima-gallery-1790139590493-3.png?v=1790139590493]
 updated: 2026-09-23
-updated_at: 2026-09-23T02:11:36.169Z
+updated_at: 2026-09-23T05:00:01.492Z
 age: ??
 gender: Cis F.
 birthday: 
