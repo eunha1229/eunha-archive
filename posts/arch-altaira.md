@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-altaira
 tags: [Sentinel-S, Fulmen]
 image: assets/characters/arch-altaira.png?v=1790005648069
-gallery: [assets/characters/arch-altaira-gallery-1790100282269-1.png?v=1790100282269, assets/characters/arch-altaira-gallery-1790100282269-2.png?v=1790100282269]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:04:48.531Z
+gallery: [assets/characters/arch-altaira-gallery-1790100282269-1.png?v=1790100282269, assets/characters/arch-altaira-gallery-1790100282269-2.png?v=1790100282269, assets/characters/arch-altaira-gallery-1790135655272-1.png?v=1790135655272]
+updated: 2026-09-23
+updated_at: 2026-09-23T03:54:18.364Z
 age: 26
 gender: Cis F.
 birthday: 
