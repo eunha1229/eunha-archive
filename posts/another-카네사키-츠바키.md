@@ -7,9 +7,9 @@ category: OTHER
 slug: another-카네사키-츠바키
 tags: [Seigetsu High School, Baseball Team Manager]
 image: assets/characters/another-카네사키-츠바키.png?v=1790016889728
-gallery: [assets/characters/another-카네사키-츠바키-gallery-1790100460398-1.png?v=1790100460398]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:07:43.842Z
+gallery: [assets/characters/another-카네사키-츠바키-gallery-1790100460398-1.png?v=1790100460398, assets/characters/another-카네사키-츠바키-gallery-1790136335166-1.png?v=1790136335166]
+updated: 2026-09-23
+updated_at: 2026-09-23T04:05:37.990Z
 age: 16
 gender: Cis F.
 birthday: 09/30
@@ -28,7 +28,7 @@ summary:
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
-girl, cute, 1.2::big breast::, 2::golden yellow eyes::, very long eyelashes, a lot of eyelashes, cat-like impression, 1.6::brown color eyelashes::, 0.2::pink:: 1.4::brown:: hair, 3::right-swept bangs::, very long layered hair, french braid, 2::high pony tail::, black hair_ribbon, a lot of hair, wavy hair, -2::blunt, fringe, forehead, down hair::,
+girl, cute, 1.2::big breast::, 2::golden yellow eyes::, very long eyelashes, a lot of eyelashes, cat-like impression, 1.6::brown color eyelashes::, 0.8::pink:: 1.4::brown:: hair, 3::right-swept bangs::, very long layered hair, french braid, 2::high pony tail::, black hair_ribbon, a lot of hair, wavy hair, -2::blunt, fringe, forehead, down hair::,
 
 <!-- persona-archive:copy -->
 # DEFAULT OUTFIT
