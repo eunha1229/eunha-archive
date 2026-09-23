@@ -9,7 +9,7 @@ tags: [Sentinel-B, Verde]
 image: assets/characters/arch-lilya.png?v=1789999039283
 gallery: [assets/characters/arch-lilya-gallery-1790100218327-1.png?v=1790100218327, assets/characters/arch-lilya-gallery-1790100218327-2.png?v=1790100218327, assets/characters/arch-lilya-gallery-1790134435240-1.png?v=1790134435240]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:26:00.372Z
+updated_at: 2026-09-23T10:30:59.195Z
 age: 22
 gender: Cis F.
 birthday: 
@@ -29,6 +29,9 @@ summary: 가장 하얗고, 가장 순수한 것. 또한 가장 눈부시고, 때
 - 백장화(白葬花/はくそうか) : 독성을 지닌 새하얀 꽃을 피워내 질식 및 중독사로 이끈다. 지형물, 혹은 대상의 신체에 직접 피워낼 수 있다.
 - 신등조(神藤操/しんとうそう) : 굵고 질긴 덩굴 식물을 소환한다. 진로 확보 및 적을 속박해 쥐어 터뜨리거나 후려치는 등 활용 범위가 넓다.
 - 근옥수(根獄樹/こんごくじゅ) : 대상의 체내에 뿌리를 뻗어 파고 드는 식물을 틔워낸다. 생명력을 먹고 자란 식물은 강력한 무기가 된다.
+
+# PAIR
+- 자이안: 2026.04.10~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
