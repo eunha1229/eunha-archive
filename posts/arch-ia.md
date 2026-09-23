@@ -9,7 +9,7 @@ tags: [Sentine-B, Aero]
 image: assets/characters/arch-ia.png?v=1789997527794
 gallery: [assets/characters/arch-ia-gallery-1790100185597-1.png?v=1790100185597, assets/characters/arch-ia-gallery-1790100185597-2.png?v=1790100185597, assets/characters/arch-ia-gallery-1790132341723-1.png?v=1790132341723]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:25:31.735Z
+updated_at: 2026-09-23T10:30:19.734Z
 age: 약 3년 전 제조된 것으로 추정
 gender: 정체성 확립 전
 birthday: 
@@ -29,6 +29,9 @@ summary: 들을 수 없고, 볼 수 없고, 또한 잡을 수 없는 것. 형태
 - Null_Chamber.calc: 일대를 진공 상태로 만들어 대상의 호흡과 감각을 억제하여 기동성을 떨어뜨리는 기술.
 - Cutline_Edge.rm: 고압축된 바람으로 대상을 그대로 절삭해버리는 마무리 기술.
 - Micro_Press.sync: 일대의 기압을 세심하게 컨트롤하여 대상을 찌그러뜨리거나, 터뜨려버리는 기술.
+
+# PAIR
+- 스트레이: 2026.04.05~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
