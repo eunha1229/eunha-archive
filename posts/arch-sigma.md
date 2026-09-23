@@ -9,7 +9,7 @@ tags: [Guide-S, Neutral]
 image: assets/characters/arch-sigma.png?v=1789999230485
 gallery: [assets/characters/arch-sigma-gallery-1790100245116-1.png?v=1790100245116, assets/characters/arch-sigma-gallery-1790100245116-2.png?v=1790100245116]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:47:30.309Z
+updated_at: 2026-09-23T10:26:57.568Z
 age: 27
 gender: Cis M.
 birthday: 
@@ -21,10 +21,13 @@ summary: 유한의 샘에서 극한이 치솟아, 이윽고 무한이 된다. �
 ---
 
 # CHARACTER
-하모니 중추 소속의 가이드. 무속성임에도 S급 판정을 받을 만큼 지극할 정도로 순수하고 정결하며, 강력 가이딩의 파장을 지니고 있다. 훤칠한 외모와 뛰어난 가이딩 실력, 그리고 예의 바른 태도에 그를 흠모하는 센티넬이 적지 않으나 본인이 워낙 철옹성이라 대충 절벽 위의 꽃 취급을 받는 중.
+하모니 중추 소속의 S급 무속성 가이드. 무속성임에도 S급 판정을 받을 만큼 지극할 정도로 순수하고 정결하며, 강력 가이딩의 파장을 지니고 있다. 훤칠한 외모와 뛰어난 가이딩 실력, 그리고 예의 바른 태도에 그를 흠모하는 센티넬이 적지 않으나 본인이 워낙 철옹성이라 대충 절벽 위의 꽃 취급을 받는 중.
 
 # ABILITY
 
+
+# PAIR
+- 피카: 2026.04.24~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
