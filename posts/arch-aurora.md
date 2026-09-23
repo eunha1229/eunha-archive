@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-aurora
 tags: [Guide-A, Neutral]
 image: assets/characters/arch-aurora.png?v=1790006127118
-gallery: [assets/characters/arch-aurora-gallery-1790100331611-1.png?v=1790100331611]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:05:35.511Z
+gallery: [assets/characters/arch-aurora-gallery-1790100331611-1.png?v=1790100331611, assets/characters/arch-aurora-gallery-1790134759976-1.png?v=1790134759976, assets/characters/arch-aurora-gallery-1790134759976-2.png?v=1790134759976]
+updated: 2026-09-23
+updated_at: 2026-09-23T03:39:26.160Z
 age: 28
 gender: Cis F.
 birthday: 
