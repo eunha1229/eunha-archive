@@ -9,7 +9,7 @@ tags: [Guide-S, Glacies]
 image: assets/characters/arch-eos.png?v=1789990951555
 gallery: [assets/characters/arch-eos-gallery-1790099763440-1.png?v=1790099763440, assets/characters/arch-eos-gallery-1790099763440-2.png?v=1790099763440, assets/characters/arch-eos-gallery-1790132660951-1.png?v=1790132660951]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:16:06.857Z
+updated_at: 2026-09-23T10:21:14.953Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -21,7 +21,7 @@ summary: 동 트기 직전 새벽이 가장 어두운 법이다. 코드네임 '�
 ---
 
 # CHARACTER
-ARCH 입사 1년차. 불의 군주인 ‘헬리오스(하선우)’의 이복 여동생으로, 부친에게 괴물 취급을 받은 헬리오스와는 달리 철저하게 입맛에 맞는 인형 취급을 당하며 살아왔다. ARCH에 온 것은 일종의 도피인 셈. 본래는 머리 색도 헬리오스와 똑같은 오렌지 레드 색이다.
+하모니 소속의 S급 얼음속성 가이드. ARCH 입사 1년차. 불의 군주인 ‘헬리오스(하선우)’의 이복 여동생으로, 부친에게 괴물 취급을 받은 헬리오스와는 달리 철저하게 입맛에 맞는 인형 취급을 당하며 살아왔다. ARCH에 온 것은 일종의 도피인 셈. 본래는 머리 색도 헬리오스와 똑같은 오렌지 레드 색이다.
 
 # ABILITY
 [심야의 광휘(Nyktaugē)] 얼음 속성의 패시브인 치유 및 경직 디버프 상쇄. 얼음 속성으로 하여금 보호막 및 무기 강화가 가능하다.
