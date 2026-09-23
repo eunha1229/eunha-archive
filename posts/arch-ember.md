@@ -9,7 +9,7 @@ tags: [Guide-S, Pyre]
 image: assets/characters/arch-ember.png?v=1789991163265
 gallery: [assets/characters/arch-ember-gallery-1790099799289-1.png?v=1790099799289, assets/characters/arch-ember-gallery-1790099799289-2.png?v=1790099799289, assets/characters/arch-ember-gallery-1790132976589-1.png?v=1790132976589]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:16:53.052Z
+updated_at: 2026-09-23T10:21:38.976Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -21,7 +21,7 @@ summary: 생명의 불씨를 틔우고 키우는 것은, 언제나 작은 티끌
 ---
 
 # CHARACTER
-이제 막 ARCH에 입사한 햇병아리 가이드. 다정하고 싹싹하지만 덜렁대는 구석이 있다. 크툴루나 SCP 등의 오컬트에 관심이 많은 편.
+하모니 소속의 S급 불속성 가이드. 이제 막 ARCH에 입사한 햇병아리. 다정하고 싹싹하지만 덜렁대는 구석이 있다. 크툴루나 SCP 등의 오컬트에 관심이 많은 편.
 
 # BACKGROUND
 [Cineraxis(재의 축)]. 불 속성 패시브인 전투력 증폭 외에도 불을 이용한 난기류 조절로 방향 유도도 할 수 있는 현장 서포트 형 인재. 가이딩은 아직 조금 서투르다!
