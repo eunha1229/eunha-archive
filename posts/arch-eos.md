@@ -7,9 +7,9 @@ category: OTHER
 slug: arch-eos
 tags: [Guide-S, Glacies]
 image: assets/characters/arch-eos.png?v=1789990951555
-gallery: [assets/characters/arch-eos-gallery-1790099763440-1.png?v=1790099763440, assets/characters/arch-eos-gallery-1790099763440-2.png?v=1790099763440]
-updated: 2026-09-22
-updated_at: 2026-09-22T17:56:10.053Z
+gallery: [assets/characters/arch-eos-gallery-1790099763440-1.png?v=1790099763440, assets/characters/arch-eos-gallery-1790099763440-2.png?v=1790099763440, assets/characters/arch-eos-gallery-1790131429954-1.png?v=1790131429954]
+updated: 2026-09-23
+updated_at: 2026-09-23T02:43:53.214Z
 age: 21
 gender: Cis F.
 birthday: 
