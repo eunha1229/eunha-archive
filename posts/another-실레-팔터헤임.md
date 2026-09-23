@@ -8,8 +8,8 @@ slug: another-실레-팔터헤임
 tags: [@0, Phatasmagoria]
 image: assets/characters/another-실레-팔터헤임.png?v=1790018677690
 gallery: [assets/characters/another-실레-팔터헤임-gallery-1790100485266-1.png?v=1790100485266]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:08:09.209Z
+updated: 2026-09-23
+updated_at: 2026-09-23T10:49:39.361Z
 age: 20
 gender: Cis F.
 birthday: 09/30
@@ -23,8 +23,9 @@ summary: 세상에. 심장이, 심장이 뛰고 있어요. 환상이 아닙니�
 # CHARACTER
 
 
-# BACKGROUND
-
+# PAIR
+- 늑대(@shoshong): 2026.03.20~
+- 팬텀(@0): 2026.04.01~ [Main]
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
