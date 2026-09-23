@@ -7,9 +7,9 @@ category: OTHER
 slug: themis-aubade
 tags: [Guide-S, Ushas, Xenos (Veda), Muse]
 image: assets/characters/themis-aubade.png?v=1790012457702
-gallery: [assets/characters/themis-aubade-gallery-1790100722808-1.png?v=1790100722808]
-updated: 2026-09-22
-updated_at: 2026-09-22T18:12:06.561Z
+gallery: [assets/characters/themis-aubade-gallery-1790100722808-1.png?v=1790100722808, assets/characters/themis-aubade-gallery-1790136666814-1.png?v=1790136666814]
+updated: 2026-09-23
+updated_at: 2026-09-23T04:11:10.567Z
 age: 22
 gender: Cis F.
 birthday: 
