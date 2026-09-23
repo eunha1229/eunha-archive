@@ -9,7 +9,7 @@ tags: [Guide-A, Neutral]
 image: assets/characters/fearless-psyche-2.png?v=1789983735432
 gallery: [assets/characters/fearless-psyche-2-gallery-1790099542601-1.png?v=1790099542601, assets/characters/fearless-psyche-2-gallery-1790099542601-2.png?v=1790099542601, assets/characters/fearless-psyche-2-gallery-1790130993442-1.png?v=1790130993442]
 updated: 2026-09-23
-updated_at: 2026-09-23T02:36:37.056Z
+updated_at: 2026-09-23T05:20:08.897Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -21,10 +21,10 @@ summary: 자신의 생명을 떼내어 선사하는 봄의 순풍은 이타적 �
 ---
 
 # CHARACTER
+19세부터 ARCH 소속의 가이드로 지내 왔다. 다만, 무슨 살이 꼈는지 파트너십을 맺는 족족 파트너 센티넬이 1년도 채 버티지 못하고 사망하는 일이 반복되며 ‘저주받은 페르세포네’라는 멸칭을 얻게 된다. 약 3년 전부터는 언제나 상복 같은 검은 옷만 입고 다니고, 지독한 자아존중감 결핍에 시달리고 있다.
 
-
-# BACKGROUND
-
+# ABILITY
+접촉 가이딩 외에도 광범위 방사 가이딩에 특화. 가이딩은 라벤더와 튤립 같은 봄꽃의 향취가 난다.
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
