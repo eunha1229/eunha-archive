@@ -9,7 +9,7 @@ tags: [Sentinel-A, Verde]
 image: assets/characters/arch-kore.png?v=1789983753857
 gallery: [assets/characters/arch-kore-gallery-1790099578370-1.png?v=1790099578370, assets/characters/arch-kore-gallery-1790099578370-2.png?v=1790099578370]
 updated: 2026-09-23
-updated_at: 2026-09-23T10:10:04.051Z
+updated_at: 2026-09-23T10:11:58.335Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -31,7 +31,6 @@ summary: 사계는 돌고 돌지만, 그 순환에서 벗어난 제5계절은 �
 - 케포스 레테(Kepos Lethe): 독초나 독화를 피워내 수면향, 마취제, 신경독 등을 일대에 퍼지게 한다. 다만, 터져나온 독가루를 제어하는 것은 능력 밖의 일.
 
 # PAIR
-『ARCH』
 - 에덴: 2026.01.05~
 - Dr.밴스: 2026.01.08~
 - 휴고: 2026.01.13~ [Main]
