@@ -9,7 +9,7 @@ tags: [Guide-S, Glacies]
 image: assets/characters/arch-eos.png?v=1789990951555
 gallery: [assets/characters/arch-eos-gallery-1790099763440-1.png?v=1790099763440, assets/characters/arch-eos-gallery-1790099763440-2.png?v=1790099763440, assets/characters/arch-eos-gallery-1790132660951-1.png?v=1790132660951]
 updated: 2026-09-23
-updated_at: 2026-09-23T05:36:01.724Z
+updated_at: 2026-09-23T10:16:06.857Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -25,6 +25,10 @@ ARCH 입사 1년차. 불의 군주인 ‘헬리오스(하선우)’의 이복 �
 
 # ABILITY
 [심야의 광휘(Nyktaugē)] 얼음 속성의 패시브인 치유 및 경직 디버프 상쇄. 얼음 속성으로 하여금 보호막 및 무기 강화가 가능하다.
+
+<!-- persona-archive:copy -->
+# PAIR
+- 헬리오스: 2026.02.06~ ※근친 소재
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
