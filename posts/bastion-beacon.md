@@ -7,9 +7,9 @@ category: OTHER
 slug: bastion-beacon
 tags: [RCN, First Lieutenant]
 image: assets/characters/bastion-beacon.png?v=1790276719379
-gallery: [assets/characters/bastion-beacon-gallery-1790276719379-1.png?v=1790276719379, assets/characters/bastion-beacon-gallery-1790276719379-2.png?v=1790276719379]
+gallery: [assets/characters/bastion-beacon-gallery-1790276855010-1.png?v=1790276855010, assets/characters/bastion-beacon-gallery-1790276855010-2.png?v=1790276855010]
 updated: 2026-09-24
-updated_at: 2026-09-24T19:06:19.459Z
+updated_at: 2026-09-24T19:07:45.991Z
 age: 26
 gender: Cis F.
 birthday: 
