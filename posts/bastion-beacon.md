@@ -9,7 +9,7 @@ tags: [RCN, First Lieutenant]
 image: assets/characters/bastion-beacon.png?v=1790276719379
 gallery: [assets/characters/bastion-beacon-gallery-1790276719379-1.png?v=1790276719379, assets/characters/bastion-beacon-gallery-1790276719379-2.png?v=1790276719379]
 updated: 2026-09-24
-updated_at: 2026-09-24T19:05:27.208Z
+updated_at: 2026-09-24T19:06:19.459Z
 age: 26
 gender: Cis F.
 birthday: 
@@ -22,6 +22,11 @@ summary:
 
 # CHARACTER
 
+
+<!-- persona-archive:copy -->
+# PAIR
+『BASTION』
+- 오닉스: 2026.09.25~
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
