@@ -9,14 +9,14 @@ tags: [RCN, First Lieutenant]
 image: assets/characters/bastion-beacon.png?v=1790276719379
 gallery: [assets/characters/bastion-beacon-gallery-1790276855010-1.png?v=1790276855010, assets/characters/bastion-beacon-gallery-1790276855010-2.png?v=1790276855010]
 updated: 2026-09-25
-updated_at: 2026-09-25T06:44:28.872Z
+updated_at: 2026-09-25T06:46:48.965Z
 age: 26
 gender: Cis F.
 birthday: 
 height: 166cm
 nationality: Taiwan
 partner: ONYX
-catchphrase: First Lieutenant BEACON
+catchphrase: First Lieutenant
 summary: RCN ─ Special Reconnaissance / Target Designation
 ---
 
