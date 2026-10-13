@@ -8,8 +8,8 @@ slug: arch-kay
 tags: [Sentinel-S, Pyre]
 image: assets/characters/arch-kay.png?v=1790015803792
 gallery: [assets/characters/arch-kay-gallery-1790100383571-1.png?v=1790100383571, assets/characters/arch-kay-gallery-1790133422975-1.png?v=1790133422975]
-updated: 2026-09-23
-updated_at: 2026-09-23T10:37:02.405Z
+updated: 2026-10-13
+updated_at: 2026-10-13T00:24:36.322Z
 age: 34
 gender: Cis F.
 birthday: 
@@ -38,7 +38,7 @@ pure black hair, ::forehead::, 2::wolf cut::,
 
 <!-- persona-archive:copy -->
 # DEFAULT OUTFIT
-multiple piercings, silver name tag necklace,
+multiple piercings, silver military dog tags necklace,
 sleeveless black knit turtleneck,
 black military uniform jacket, jacket on the shoulders, subtle military-style gold trim, golden aiguillette, 
 black half-gloves, fingerless gloves,
