@@ -8,8 +8,8 @@ slug: another-코히나타-히요리
 tags: [@sugar, Tsukinai]
 image: assets/characters/another-코히나타-히요리.png?v=1790016270082
 gallery: [assets/characters/another-코히나타-히요리-gallery-1790100403850-1.png?v=1790100403850, assets/characters/another-코히나타-히요리-gallery-1790136059366-1.png?v=1790136059366]
-updated: 2026-09-23
-updated_at: 2026-09-23T10:37:52.177Z
+updated: 2026-10-18
+updated_at: 2026-10-18T16:48:00.118Z
 age: 21
 gender: Cis F.
 birthday: 
@@ -28,7 +28,7 @@ summary:
 
 <!-- persona-archive:copy -->
 # CHARACTER PROMPT
-girl, pale skin, small breast, slender, frecckles,
+girl, pale skin, small breast, flat chest, slender, frecckles, 0.7::short stature, aged down::, bishoujo,
 2::vivid violet eyes::, tareme, round eyes, a lot of eyelashes, very long eyelashes,  1.7::pastel pink color eyelashes::, 
 2::pastel pink hair::, long hair, 2::wavy hair, a lot of hair::, hair between eyes, side lock hair, face framing hair, 0.6::messy hair::,
 
