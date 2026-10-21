@@ -8,8 +8,8 @@ slug: arch-nevaeh-3
 tags: [Guide-S, Sentinel-S, Aqua]
 image: assets/characters/arch-nevaeh-3.png?v=1789984061722
 gallery: [assets/characters/arch-nevaeh-3-gallery-1790099669105-1.png?v=1790099669105, assets/characters/arch-nevaeh-3-gallery-1790129520974-1.png?v=1790129520974]
-updated: 2026-09-23
-updated_at: 2026-09-23T10:20:18.460Z
+updated: 2026-10-21
+updated_at: 2026-10-21T10:43:57.954Z
 age: ??
 gender: ??
 birthday: ??
@@ -41,7 +41,7 @@ S급의 센티넬-가이드 이중 각성자. 단, 본인 스스로 가이딩하
 # CHARACTER PROMPT
 girl,
 2::vivid violet eyes::, very long eyelashes, a lot of eyelashes, weak cat-like impression,
-bluish black hair, 3::right-swept bangs::, very long layered hair, wavy hair, a lot of hair, -2::hime-cut, forehead, fringe, blunt, pony tail::,
+0.6::bluish:: 1.4::black:: hair, 3::right-swept bangs::, very long layered hair, wavy hair, a lot of hair, -2::hime-cut, forehead, fringe, blunt, pony tail::,
 white skin, 1.4::big breast::, 2::humans ear::,
 
 long mermaid tail, detailed iridescent scales, [purple-blue gradient scales::], glossy shimmering scales, extravagant layered fins,
