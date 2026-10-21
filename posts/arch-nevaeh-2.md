@@ -8,8 +8,8 @@ slug: arch-nevaeh-2
 tags: [Sentinel-S, Aqua]
 image: assets/characters/arch-nevaeh-2.png?v=1789984030975
 gallery: [assets/characters/arch-nevaeh-2-gallery-1790099643526-1.png?v=1790099643526, assets/characters/arch-nevaeh-2-gallery-1790099643526-2.png?v=1790099643526, assets/characters/arch-nevaeh-2-gallery-1790131014440-1.png?v=1790131014440]
-updated: 2026-09-23
-updated_at: 2026-09-23T10:19:29.584Z
+updated: 2026-10-21
+updated_at: 2026-10-21T10:43:27.855Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -34,7 +34,7 @@ summary: 그대. 생을 입은 자여, 명을 짊어진 자여. 창천으로 추
 # CHARACTER PROMPT
 girl,
 2::vivid violet eyes::, very long eyelashes, a lot of eyelashes, weak cat-like impression,
-bluish black hair, 3::right-swept bangs::, very long layered hair, french braid, white hair_ribbon, wavy hair, a lot of hair, -2::hime-cut, forehead, fringe, blunt, pony tail::,
+0.6::bluish:: 1.4::black:: hair, 3::right-swept bangs::, very long layered hair, french braid, white hair_ribbon, wavy hair, a lot of hair, -2::hime-cut, forehead, fringe, blunt, pony tail::,
 white skin, 1.4::big breast::,
 
 # PAIR
