@@ -8,8 +8,8 @@ slug: arch-nevaeh
 tags: [Guide-S, Aqua]
 image: assets/characters/arch-nevaeh.png?v=1789983818960
 gallery: [assets/characters/arch-nevaeh-gallery-1790099614453-1.png?v=1790099614453, assets/characters/arch-nevaeh-gallery-1790099614453-2.png?v=1790099614453, assets/characters/arch-nevaeh-gallery-1790131030934-1.png?v=1790131030934]
-updated: 2026-09-23
-updated_at: 2026-09-23T10:19:05.124Z
+updated: 2026-10-21
+updated_at: 2026-10-21T10:43:46.398Z
 age: 26
 gender: Cis F.
 birthday: 09/30
@@ -35,7 +35,7 @@ summary: 낙원은 존재하지 않는다. 세상은 폐허보다 메말랐고, 
 # CHARACTER PROMPT
 girl,
 2::vivid violet eyes::, very long eyelashes, a lot of eyelashes, weak cat-like impression,
-bluish black hair, 3::right-swept bangs::, very long layered hair, french braid, white hair_ribbon, wavy hair, a lot of hair, -2::hime-cut, forehead, fringe, blunt, pony tail::,
+0.6::bluish:: 1.4::black:: hair, 3::right-swept bangs::, very long layered hair, french braid, white hair_ribbon, wavy hair, a lot of hair, -2::hime-cut, forehead, fringe, blunt, pony tail::,
 white skin, 1.4::big breast::,
 
 <!-- persona-archive:copy -->
